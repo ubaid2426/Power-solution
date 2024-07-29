@@ -1,0 +1,40 @@
+#btn {
+  background: linear-gradient(to right, rgba(176, 31, 98, 1) 0%, rgba(85, 101, 181, 1) 100%);
+  font-size: 22px;
+  border-radius: 40px;
+  outline: none;
+  display: flex;
+  justify-content: center; /* Center text by default */
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  z-index: 8;
+  transition: all .6s ease-in-out;
+}
+
+#btn:hover {
+  transition: all .6s ease-in-out;
+  background: linear-gradient(to left, rgba(176, 31, 98, 1) 0%, rgba(85, 101, 181, 1) 100%);
+  justify-content: flex-start; /* Move text to start */
+}
+
+#btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/10001.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+#btn:hover::after {
+  opacity: 1;
+}

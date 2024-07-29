@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: myfont3;
+  src: url(../../assets/Fonts/avenir-font/AvenirLTStd-Book.otf);
+}
+@font-face {
+  font-family: myfont4;
+  src: url(../../assets/Fonts/avenir-font/AvenirLTStd-BookOblique.otf);
+}
+@font-face {
+  font-family: myfont5;
+  src: url(../../assets/Fonts/avenir-font/AvenirLTStd-Heavy.otf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sp {
+  height: 1100px;
+  width: 100vw;
+  display: grid;
+  background: linear-gradient(to right bottom, rgb(176, 31, 98) 30%, rgb(85, 101, 181) 100%);
+  place-items: center;
+}
+.sp .sp1 {
+  width: 70vw;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 20% 70%;
+}
+.sp .sp1 .sp1-4, .sp .sp1 .sp1-5 {
+  width: 100vw;
+}
+.sp .sp1 .sp1-1 {
+  display: grid;
+  place-items: start;
+  font-size: 50px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+.sp .sp1 .sp1-1 .sp1-1 span {
+  font-size: 40px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+.sp .sp1 .sp1-2 {
+  display: grid;
+  place-items: start;
+  width: 46vw;
+}
+.sp .sp1 .sp1-2 span {
+  font-size: 25px;
+  font-family: "Mukta", sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+.sp .sp1 .sp1-3 {
+  display: grid;
+  place-items: start;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 4rem;
+}
+.sp .sp1 .sp1-3 .sp1-3-1, .sp .sp1 .sp1-3 .sp1-3-2, .sp .sp1 .sp1-3 .sp1-3-3 {
+  color: #fff;
+}
+.sp .sp1 .sp1-3 .sp1-3-1 #sp-h, .sp .sp1 .sp1-3 .sp1-3-2 #sp-h, .sp .sp1 .sp1-3 .sp1-3-3 #sp-h {
+  font-size: 30px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 900;
+}
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-1-2, .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-1,
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-1,
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-2, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-1-2, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-1,
+.sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-1,
+.sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-2, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-1-2, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-1,
+.sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-1,
+.sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-2 {
+  width: 300px;
+  margin-top: 1rem;
+}
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-1-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-1 #sp-l1,
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-1 #sp-l1,
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-1-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-1 #sp-l1,
+.sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-1 #sp-l1,
+.sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-1-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-1 #sp-l1,
+.sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-1 #sp-l1,
+.sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-2 #sp-l1 {
+  color: #fff;
+  font-size: 17px;
+  width: 280px;
+  font-family: myfont4;
+  font-weight: 100;
+}
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-1-2 #sp-l1 #sp-h3, .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-1 #sp-l1 #sp-h3,
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-1 #sp-l1 #sp-h3,
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-2 #sp-l1 #sp-h3, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-1-2 #sp-l1 #sp-h3, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-1 #sp-l1 #sp-h3,
+.sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-1 #sp-l1 #sp-h3,
+.sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-2 #sp-l1 #sp-h3, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-1-2 #sp-l1 #sp-h3, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-1 #sp-l1 #sp-h3,
+.sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-1 #sp-l1 #sp-h3,
+.sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-2 #sp-l1 #sp-h3 {
+  font-size: 17px;
+  color: #fff;
+  font-family: myfont5;
+  font-weight: 100;
+}
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-2, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-2, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-2 {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-2 ul, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-2 ul, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-2 ul {
+  list-style-type: disc;
+}
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-2 ul li::before, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-2 ul li::before, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-2 ul li::before {
+  content: "•"; /* Unicode for bullet */
+  position: absolute;
+  left: -15px;
+  top: -10px;
+  color: #fff; /* Bullet color */
+  font-size: 25px; /* Bullet size */
+}
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-2 ul li, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-2 ul li, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-2 ul li {
+  position: relative;
+  display: grid;
+  color: #fff;
+  list-style-type: disc;
+}
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-2 ul li #sp-h1, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-2 ul li #sp-h1, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-2 ul li #sp-h1 {
+  font-size: 17px;
+  color: #fff;
+  font-family: myfont5;
+  font-weight: 500;
+}
+.sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-2 ul li #sp-l1, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-2 ul li #sp-l1, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-2 ul li #sp-l1 {
+  font-size: 17px;
+  color: #fff;
+  font-family: myfont4;
+  font-weight: 100;
+}/*# sourceMappingURL=SPS.css.map */

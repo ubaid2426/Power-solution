@@ -5,20 +5,21 @@
 }
 .head{
     width: 100vw;
-    height:150px;
+    height:200px;
+      /* transform: rotateX(180deg); */
       transform: rotateY(180deg);
-    background-color:rgb(90, 234, 7);
+    background:transparent;
+    /* background: #ff0000; */
  }
  #head-1{
     width:100vw;
-    /* transform: rotate(180deg); */
-   /* background-color:red; */
    color: aliceblue;
-    /* height:200; */
+   /* color: transparent; */
 
  }
  #head-2{
-  /* background-color:rgb(55, 0, 255); */
   color: aliceblue;
-    height:150px;
+  /* background: #ff0000; */
+    height:200px;
+    color: transparent;
  }

@@ -1,0 +1,157 @@
+// @font-face {
+//     font-family: myfont1;
+//     src: url(../../assets/Fonts/avenir-font/AvenirLTStd-Black.otf);
+//   }
+//   @font-face {
+//     font-family: myfont2;
+//     src: url(../../assets/Fonts/avenir-font/AvenirLTStd-BlackOblique.otf);
+//   }
+  @font-face {
+    font-family: myfont3;
+    src: url(../../assets/Fonts/avenir-font/AvenirLTStd-Book.otf);
+  }
+  @font-face {
+    font-family: myfont4;
+    src: url(../../assets/Fonts/avenir-font/AvenirLTStd-BookOblique.otf);
+  }
+  @font-face {
+    font-family: myfont5;
+    src: url(../../assets/Fonts/avenir-font/AvenirLTStd-Heavy.otf);
+  }
+//   @font-face {
+//     font-family: myfont6;
+//     src: url(../../assets/Fonts/avenir-font/AvenirLTStd-HeavyOblique.otf);
+//   }
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+.sp{
+    height:1100px;
+    width:100vw;
+    display: grid;
+    background: linear-gradient(to right bottom, rgba(176, 31, 98, 1) 30%, rgba(85, 101, 181, 1) 100%);
+    // background: #ff0000;
+    place-items: center;
+    .sp1{
+        width:70vw;
+        // place-items: center;
+        // background: #00ff;
+        height:700px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 20% 70%;
+        .sp1-4, .sp1-5{
+            width:100vw;
+          }
+        .sp1-1{
+      display: grid;
+    //   background: #fff;
+      place-items: start;
+      font-size: 50px;
+      font-family: "Mukta", sans-serif;
+      font-weight: 900;
+      color: #fff;
+     
+      .sp1-1 span{
+        font-size: 40px;
+        font-family: "Mukta", sans-serif;
+        font-weight: 900;
+        color: #fff;
+      }
+    }
+    .sp1-2{
+        display: grid;
+        place-items: start;
+        width:46vw;
+      
+        span{
+            font-size: 25px;
+            // font-family: myfont3;
+            font-family: "Mukta", sans-serif;
+            color: #fff;
+            font-weight: 400;
+        }
+        // background: #ccc;
+    }
+    .sp1-3{
+        display: grid;
+        place-items: start;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 4rem;
+        // background: #000;
+        .sp1-3-1, .sp1-3-2, .sp1-3-3{
+            color: #fff;
+            // margin-bottom: 1.5rem;
+            #sp-h{
+                font-size: 30px;
+                font-family: "Mukta", sans-serif; 
+                font-weight: 900;
+                    //  margin-bottom: 1.5rem;
+            }
+            .sp1-3-1-2, .sp1-3-2-2-1, 
+             .sp1-3-3-2-1,
+             .sp1-3-3-2-2{
+                width:300px;
+                margin-top: 1rem;
+                #sp-l1{
+                    color:#fff;
+                    font-size: 17px;
+                    width: 280px;
+                    font-family: myfont4;
+                    font-weight: 100;
+                    #sp-h3{
+                      font-size: 17px;
+                      color: #fff;
+                      font-family: myfont5;
+                      font-weight: 100;
+   
+                    }
+                 }
+
+            }
+            .sp1-3-2-2-2{
+                margin-left: 2rem;
+                display: flex;
+                flex-direction: column;
+                ul{
+                    list-style-type: disc;
+                    // display: grid;
+                // }
+                li::before {
+                    content: '•'; /* Unicode for bullet */
+                    position: absolute;
+                    left: -15px;
+                    top: -10px;
+                    color: #fff; /* Bullet color */
+                    font-size: 25px; /* Bullet size */
+                  }
+                li{
+                    position: relative;
+                display: grid;
+                color: #fff;
+                list-style-type: disc;
+                #sp-h1{
+                    font-size: 17px;
+                    color: #fff;
+                    font-family: myfont5;
+                    font-weight: 500;
+                }
+                #sp-l1{
+                    font-size: 17px;
+                    color: #fff;
+                    font-family: myfont4;
+                    font-weight: 100;
+                }
+            }
+        }
+            }
+
+        }
+    }
+
+    }
+}

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+.footer{
+    width:100vw;
+    height:250px;
+    // background: #172641;
+    .foo-1{
+        height: 210px;
+        background: #172641;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        place-items: center;
+        .foo1{
+            width:250px;
+            height:120px;
+            // background: #ff0000;
+            margin-bottom: 3rem;
+            // display: grid;
+            // place-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .foo2{
+            width:80%;
+            display: grid;
+            place-items: start;
+            margin-bottom: 3rem;
+            ul{
+                // padding:1rem;
+                // margin-top: 1rem;
+                li{
+                list-style: none;
+                margin-top: 1rem;
+                a{
+                    color:#fff;
+                    // margin-top: 1rem;
+                }
+                a:hover{
+                    color:#4371C3;
+                }
+
+                }
+            }
+         }
+         .foo3{
+            width:100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            // row-gap: 1rem;
+            .foo3-1, .foo3-2, .foo3-3{
+                display: flex;
+                color:#ff0000;
+                justify-content: start;
+                align-items: center;
+                color:#fff;
+                span{
+                    color:#fff;
+                    font-size: 25px;
+                    font-family: "Mukta", sans-serif;
+                    font-weight: 500;
+                    // background: #ff0000;
+                }
+                a{
+                    font-size: 25px;
+                    color:#fff;
+                    margin-left: 1rem;
+                }
+                a:hover{
+                    color:#4371C3;
+                }
+                
+            }
+            // .foo3{
+            //     display:
+            // }
+         }
+    }
+    .foo-2{
+        background: #111C33;
+        height:40px;
+        color:#fff;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+        span{
+            width:80vw;
+            font-size: 14px;
+            font-weight: 200;
+        }
+
+        
+    }
+}

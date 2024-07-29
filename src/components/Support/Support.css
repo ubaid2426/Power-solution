@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.supp {
+  display: grid;
+  place-items: center;
+  height: 618px;
+  grid-template-columns: 1fr;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-image: url("../../assets//Images/support.png");
+}
+.supp img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.supp .supnl {
+  background: linear-gradient(to top, rgba(176, 31, 98, 0.5) 50%, rgba(126, 140, 209, 0.5) 100%);
+  background: rgba(239, 236, 234, 0.6156862745);
+  display: grid;
+  place-items: center;
+  width: 100vw;
+}
+.supp .supnl .supp1 {
+  width: 60vw;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60% 40%;
+  margin-top: 5rem;
+}
+.supp .supnl .supp1 .supp1-1 {
+  display: grid;
+  place-items: center;
+  font-size: 60px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 900;
+  color: #b01f63;
+}
+.supp .supnl .supp1 .supp1-1 .supp1-1 span {
+  font-size: 40px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 900;
+  color: #b01f63;
+}
+.supp .supnl .supp1 .supp1-2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}/*# sourceMappingURL=Support.css.map */

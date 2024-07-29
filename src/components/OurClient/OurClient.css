@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.our {
+  display: grid;
+  width: 100vw;
+  place-items: center;
+  height: 400px;
+}
+.our .our1 {
+  width: 60vw;
+  display: grid;
+  place-items: center;
+}
+.our .our1 .our1-1 {
+  display: grid;
+  place-items: start;
+  font-size: 50px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 900;
+  color: #761442;
+}
+.our .our1 .our1-1 .our span {
+  font-size: 40px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 900;
+  color: #761442;
+}
+.our .our1 .our1-2 {
+  width: 60vw;
+  display: grid;
+  gap: 2rem;
+}
+.our .our1 .our1-2 .a {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.our .our1 .our1-2 .a .our1-2-1, .our .our1 .our1-2 .a .our1-2-2, .our .our1 .our1-2 .a .our1-2-3,
+.our .our1 .our1-2 .a .our1-2-4, .our .our1 .our1-2 .a .our1-2-5 {
+  width: 80%;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.our .our1 .our1-2 .a .our1-2-1 img, .our .our1 .our1-2 .a .our1-2-2 img, .our .our1 .our1-2 .a .our1-2-3 img,
+.our .our1 .our1-2 .a .our1-2-4 img, .our .our1 .our1-2 .a .our1-2-5 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.our .our1 .our1-2 .b {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.our .our1 .our1-2 .b .our1-2-6,
+.our .our1 .our1-2 .b .our1-2-7, .our .our1 .our1-2 .b .our1-2-8, .our .our1 .our1-2 .b .our1-2-9,
+.our .our1 .our1-2 .b .our1-2-10, .our .our1 .our1-2 .b .our1-2-11 {
+  width: 80%;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.our .our1 .our1-2 .b .our1-2-6 img,
+.our .our1 .our1-2 .b .our1-2-7 img, .our .our1 .our1-2 .b .our1-2-8 img, .our .our1 .our1-2 .b .our1-2-9 img,
+.our .our1 .our1-2 .b .our1-2-10 img, .our .our1 .our1-2 .b .our1-2-11 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=OurClient.css.map */

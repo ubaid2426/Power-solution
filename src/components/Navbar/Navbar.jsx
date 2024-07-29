@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-
+import { FaLinkedinIn } from "react-icons/fa";
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -23,7 +23,18 @@ const Navbar = () => {
 
   return (
     <nav className={scrolled ? 'navbar scrolled' : 'navbar'}>
-      <h1>My Website</h1>
+      <div className="nav1">
+        <img src="/Images/10002.png" alt="" />
+      </div>
+      <div className="nav2">
+      <ul>
+                <li><a href="/">SPS</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/service">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li id='last-five'><a href=""><FaLinkedinIn id='icon'/></a></li>
+              </ul>
+      </div>
     </nav>
   );
 };

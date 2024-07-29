@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer {
+  width: 100vw;
+  height: 250px;
+}
+.footer .foo-1 {
+  height: 210px;
+  background: #172641;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  place-items: center;
+}
+.footer .foo-1 .foo1 {
+  width: 250px;
+  height: 120px;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.footer .foo-1 .foo1 img {
+  width: 100%;
+  height: 100%;
+}
+.footer .foo-1 .foo2 {
+  width: 80%;
+  display: grid;
+  place-items: start;
+  margin-bottom: 3rem;
+}
+.footer .foo-1 .foo2 ul li {
+  list-style: none;
+  margin-top: 1rem;
+}
+.footer .foo-1 .foo2 ul li a {
+  color: #fff;
+}
+.footer .foo-1 .foo2 ul li a:hover {
+  color: #4371C3;
+}
+.footer .foo-1 .foo3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.footer .foo-1 .foo3 .foo3-1, .footer .foo-1 .foo3 .foo3-2, .footer .foo-1 .foo3 .foo3-3 {
+  display: flex;
+  color: #ff0000;
+  justify-content: start;
+  align-items: center;
+  color: #fff;
+}
+.footer .foo-1 .foo3 .foo3-1 span, .footer .foo-1 .foo3 .foo3-2 span, .footer .foo-1 .foo3 .foo3-3 span {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+}
+.footer .foo-1 .foo3 .foo3-1 a, .footer .foo-1 .foo3 .foo3-2 a, .footer .foo-1 .foo3 .foo3-3 a {
+  font-size: 25px;
+  color: #fff;
+  margin-left: 1rem;
+}
+.footer .foo-1 .foo3 .foo3-1 a:hover, .footer .foo-1 .foo3 .foo3-2 a:hover, .footer .foo-1 .foo3 .foo3-3 a:hover {
+  color: #4371C3;
+}
+.footer .foo-2 {
+  background: #111C33;
+  height: 40px;
+  color: #fff;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.footer .foo-2 span {
+  width: 80vw;
+  font-size: 14px;
+  font-weight: 200;
+}/*# sourceMappingURL=Footer.css.map */
