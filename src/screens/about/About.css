@@ -81,4 +81,9 @@
 }
 .about .abo1 .abo1-1 .abo1-1-2 {
   width: 100vw;
+}
+.about .abo2, .about .abo3, .about .abo4, .about .abo5, .about .abo6 {
+  display: block;
+  width: 100vw;
+  background: #fff;
 }/*# sourceMappingURL=About.css.map */

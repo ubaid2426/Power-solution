@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.dir{
+    // height:1100px;
+    display: grid;
+    align-items: start;
+    justify-content: center;
+    place-items: center;
+    width:100vw;
+    background: #EBE7E4;
+    .dir1{
+        width:70vw;
+        display: grid;
+        justify-content: center;
+      
+        .dir1-1{
+            height:100%;
+            display: grid;
+            place-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            margin-bottom: 2rem;
+            span{
+                font-size: 40px;
+                font-family: "Mukta", sans-serif;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                color: #761442;
+            }
+        }
+        .dir1-2{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            .dir1-2-1, .dir1-2-2, .dir1-2-3, .dir1-2-4{
+                // margin:1rem;
+                .dir1-2-1-1, .dir1-2-2-1, .dir1-2-3-1, .dir1-2-4-1{
+                display: grid;
+                // place-items: center;
+                    width:250px;
+                    height:250px;
+                    // background-image: url("../../assets/Images/About/10005.jpg");
+                    border-radius: 50%;
+                    object-fit: cover;
+                    background-repeat: no-repeat;
+                    // background: #761442;
+                    img{
+                        border-radius: 50%;
+                        object-fit: cover;
+                        background-repeat: no-repeat;
+                        height:100%;
+                        width:100%;
+                    }
+                }
+                .dir1-2-1-2, .dir1-2-2-2, 
+                .dir1-2-3-2, .dir1-2-4-2{
+                    display: grid;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    #dir-h{
+                        font-size: 22px;
+                        // font-family: "Mukta", sans-serif;
+                        font-family: "Ubuntu", sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        color: #000;
+                        padding-top: 1rem;
+                        // padding-bottom: 1rem;
+                    }
+                }
+                .dir1-2-1-3, .dir1-2-2-3, 
+                .dir1-2-3-3, .dir1-2-4-3{
+                    display: grid;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    #dir-italic{
+                        font-size: 20px;
+                        // font-family: "Mukta", sans-serif;
+                        font-family: "Ubuntu", sans-serif;
+                        // font-family: myfont4;
+                        letter-spacing: .1rem;
+                        font-weight: 200;
+                        font-style: italic;
+                         color: #555555;
+                        // padding-top: 1rem;
+                        padding-bottom: 1rem;
+                    }
+                }
+                .dir1-2-1-4, .dir1-2-1-5, .dir1-2-1-6,
+                .dir1-2-2-4, .dir1-2-2-5, .dir1-2-2-6,
+                .dir1-2-3-4, .dir1-2-3-5,
+                .dir1-2-4-4, .dir1-2-4-5{
+                    display: grid;
+                    margin-top: 1rem;
+                    width:70%;
+                    #dir-l{
+                        font-size: 16px;
+                        font-family: "Ubuntu", sans-serif;
+                        font-weight: 200;
+                        font-style: normal;
+                         color: #555555;
+                        padding-bottom: 1rem;
+                    }
+                }
+
+             
+            }
+            
+        }
+    }
+    .dir-1{
+        width:100vw;
+        // background: #EBE7E4;
+    }
+}

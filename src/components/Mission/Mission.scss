@@ -1,0 +1,174 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.mission {
+//   height: 700px;
+  width: 100vw;
+  background: #fff;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  .miss {
+    width: 60vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    // row-gap: 100rem;
+    // gap:2rem;
+   
+    .miss1 {
+        // margin-bottom: 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    //   grid-template-rows: 1fr 1fr;
+      .miss1-1,
+      .miss1-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
+        align-items: start;
+        justify-content: start;
+        .miss1-1-1,
+        .miss1-2-1 {
+          display: grid;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          #miss-h {
+            font-size: 40px;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            color: #761442;
+          }
+        }
+        .miss1-1-2,
+        .miss1-2-2 {
+          display: grid;
+          width: 100%;
+          #miss-l {
+            color: #555555;
+            font-size: 19px;
+            width: 380px;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 100;
+            #miss-high {
+              font-size: 19px;
+              color: #4472c4;
+              font-family: "Ubuntu", sans-serif;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+    .miss2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 13% 87%;
+      margin-top: 4rem;
+      .miss2-1 {
+        display: grid;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        z-index: 5;
+        #miss-h {
+          font-size: 40px;
+          font-family: "Ubuntu", sans-serif;
+          font-weight: 900;
+          font-style: normal;
+          color: #761442;
+        }
+      }
+      .miss2-2 {
+        display: grid;
+        height: min-content;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background: #ebe7e4;
+        position: relative; /* Ensures positioning for pseudo-elements is relative to this container */
+        
+        .miss2-2-1,
+        .miss2-2-2,
+        .miss2-2-3,
+        .miss2-2-4 {
+          position: relative;
+          margin: 2rem;
+          display: grid;
+          align-items: start;
+          justify-content: start;
+        //   place-items: center;
+          grid-template-columns: 1fr;
+          grid-template-rows: 20% 80%;
+          .miss2-2-1-1,
+          .miss2-2-2-1,
+          .miss2-2-3-1,
+          .miss2-2-4-1 {
+            // margin-top: 3rem;
+            display: grid;
+            align-items: start;
+            justify-content: start;
+            height: min-content;
+            // margin-top: 1rem;
+            // margin-bottom: 1rem;
+            z-index: 5;
+            #miss-h {
+              font-size: 20px;
+              font-family: "Ubuntu", sans-serif;
+              font-weight: 900;
+              font-style: normal;
+              color: #4472c4;
+            //   background: #ddd;
+              height:min-content
+            }
+          }
+          .miss2-2-1-2,
+          .miss2-2-2-2,
+          .miss2-2-3-2,
+          .miss2-2-4-2 {
+            display: grid;
+            // margin-top: 1rem;
+            width: 100%;
+            #miss-l {
+              font-size: 18px;
+              font-family: "Ubuntu", sans-serif;
+              font-weight: 200;
+              font-style: normal;
+              color: #555555;
+            //   padding-bottom: 1rem;
+            }
+          }
+          
+          /* Arrow */
+          &::after {
+            content: "";
+            position: relative;
+            display: flex;
+            // background: #ff0000;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // top: 50%;
+            left: 50px;
+            transform: translateY(-50%);
+            background-image: url("../../assets/SVG/10002.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0;
+            width: 100px;
+            height:30px;
+            transition: all 1s ease-in-out;
+          }
+          
+          &:hover::after {
+            display: grid;
+            place-items: center;
+            opacity: 1;
+          }
+        }
+        .miss2-2-1:hover,  .miss2-2-2:hover,
+        .miss2-2-3:hover, .miss2-2-4:hover{
+            transform: translateY(-10%);
+            transition: all 1s ease-in-out;
+        }
+      }
+    }
+  }
+}
