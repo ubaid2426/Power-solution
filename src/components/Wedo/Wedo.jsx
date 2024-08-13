@@ -1,19 +1,14 @@
 import React from 'react'
 import './We_do.css'
-// import SVG1 from "../svg1/Svg1"
-// import SVG from "../SVG/SVG"
+import 'animate.css';
+import AOS from "aos"
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 import Button from '../Button/Button';
 const Wedo = () => {
-  const color1 = "#B01F63";
-  const color2 = "#97377A";
-  const color4 = '#A42B6E';
-  const color5 = "#EBE7E4";
-  const color3= "linear-gradient(to right bottom, rgba(176, 31, 98, 1) 0%, rgb(151, 55, 122) 100%)";
-  // const style = {
-  //   background: color3,
-  //   color: color1
-  // };
-  
+  useEffect(()=>{
+    AOS.init({duration: 1000});
+  },[]);
   return (
     <>
     <div className="we">
@@ -25,8 +20,8 @@ const Wedo = () => {
           <div className="we1-2-1"><span>We work with major electricity transmission network service providers, generation companies, energy asset owners and developers, market operators and distribution utilities.</span></div>
           <div className="we1-2-2"><span>We have specialist knowledge in grid connections, planning and development across industry.</span></div>
         </div>
-        <div className="we1-3">
-          <div className="we1-3-1">
+        <div className="we1-3" data-aos="fade-left" >
+          <div className="we1-3-1" id=' we1-3-1'>
             <div className="we1-3-1-1"><img src="/Images/100016.png" alt="how" /></div>
             <div className="we1-3-1-2"><span>Grid Connection Services</span></div>
             <div className="we1-3-1-3"><span id='first'> <span id='high-light'>Developers, OEMs and Financiers</span> on utility scale generators (wind, solar & battery)</span></div>
@@ -51,8 +46,6 @@ const Wedo = () => {
       />
         </div>
       </div>
-      {/* style={style} */}
-      
     </div>
     </>
   )

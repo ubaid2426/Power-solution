@@ -55,21 +55,21 @@
   -o-object-fit: contain;
      object-fit: contain;
 }
-.our .our1 .our1-2 .b {
+.our .our1 .our1-2 #b {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
-.our .our1 .our1-2 .b .our1-2-6,
-.our .our1 .our1-2 .b .our1-2-7, .our .our1 .our1-2 .b .our1-2-8, .our .our1 .our1-2 .b .our1-2-9,
-.our .our1 .our1-2 .b .our1-2-10, .our .our1 .our1-2 .b .our1-2-11 {
+.our .our1 .our1-2 #b .our1-2-6,
+.our .our1 .our1-2 #b .our1-2-7, .our .our1 .our1-2 #b .our1-2-8, .our .our1 .our1-2 #b .our1-2-9,
+.our .our1 .our1-2 #b .our1-2-10, .our .our1 .our1-2 #b .our1-2-11 {
   width: 80%;
   height: 100px;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.our .our1 .our1-2 .b .our1-2-6 img,
-.our .our1 .our1-2 .b .our1-2-7 img, .our .our1 .our1-2 .b .our1-2-8 img, .our .our1 .our1-2 .b .our1-2-9 img,
-.our .our1 .our1-2 .b .our1-2-10 img, .our .our1 .our1-2 .b .our1-2-11 img {
+.our .our1 .our1-2 #b .our1-2-6 img,
+.our .our1 .our1-2 #b .our1-2-7 img, .our .our1 .our1-2 #b .our1-2-8 img, .our .our1 .our1-2 #b .our1-2-9 img,
+.our .our1 .our1-2 #b .our1-2-10 img, .our .our1 .our1-2 #b .our1-2-11 img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;

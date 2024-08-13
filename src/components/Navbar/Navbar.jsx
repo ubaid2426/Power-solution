@@ -36,8 +36,8 @@ const Navbar = () => {
           <nav className="nnn">
             <Link className="lii" to="/">Home</Link>
             <Link className="lii" to="/about">About</Link>
-            <Link className="lii" to="/contact">Contact</Link>
             <Link className="lii" to="/service">Services</Link>
+            <Link className="lii" to="/contact">Contact</Link>
           </nav>
           <li id="last-five">
             <a href="">

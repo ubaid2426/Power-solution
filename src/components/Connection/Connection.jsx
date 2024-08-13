@@ -2,10 +2,17 @@ import React from "react";
 import Tog from "../Tog/Tog";
 import "./Connection.css";
 import SVG from "../SVG/SVG";
-import Network from "../Network/Network";
+import AOS from "aos"
+import 'aos/dist/aos.css';
+ import { useEffect } from 'react'
+// import Network from "../Network/Network";
 // import ToggleParagraph from '../Toggle/Toggle'
 const Connection = () => {
   const color5 = "#EBE7E4";
+  useEffect(()=>{
+    AOS.init({duration: 1000});
+  },[]);
+
   return (
     <>
       <div className="connection">
@@ -13,7 +20,7 @@ const Connection = () => {
           <SVG svg={color5} />
         </div>
         <div className="connect-1">
-          <div className="con1">
+          <div className="con1" data-aos="fade-left">
             <img src="/Images/Services/10003.png" alt="" />
           </div>
           <div className="con2">

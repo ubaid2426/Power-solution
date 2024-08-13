@@ -76,6 +76,8 @@
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: infinite;
 }
 .we .we1 .we1-3 .we1-3-1 .we1-3-1-1, .we .we1 .we1-3 .we1-3-1 .we1-3-2-1, .we .we1 .we1-3 .we1-3-1 .we1-3-3-1, .we .we1 .we1-3 .we1-3-2 .we1-3-1-1, .we .we1 .we1-3 .we1-3-2 .we1-3-2-1, .we .we1 .we1-3 .we1-3-2 .we1-3-3-1, .we .we1 .we1-3 .we1-3-3 .we1-3-1-1, .we .we1 .we1-3 .we1-3-3 .we1-3-2-1, .we .we1 .we1-3 .we1-3-3 .we1-3-3-1 {
   width: 100px;

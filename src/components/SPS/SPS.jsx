@@ -1,8 +1,14 @@
 import React from "react";
 import "./SPS.css";
 import SVG from "../SVG/SVG"
+import { useEffect } from 'react'
+import AOS from "aos"
+import 'aos/dist/aos.css'
 import Svg1 from "../svg1/Svg1"
 const SPS = () => {
+  useEffect(()=>{
+    AOS.init({duration: 1000});
+  },[]);
     const color5 = "#EBE7E4";
     const color1 = "#B01F63";
     const color3 ="#fff";
@@ -24,7 +30,7 @@ const SPS = () => {
               highest quality work and successful project delivery.
             </span>
           </div>
-          <div className="sp1-3">
+          <div className="sp1-3" data-aos="fade-left" id="sp1-3">
             <div className="sp1-3-1">
               <div className="sp1-3-1-1">
                 <span id="sp-h">Network Understanding</span>

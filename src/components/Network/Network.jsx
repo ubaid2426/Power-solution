@@ -1,11 +1,17 @@
 import React from 'react'
 import "./Network.css"
+import AOS from "aos"
+import 'aos/dist/aos.css';
+ import { useEffect } from 'react'
 const Network = () => {
+  useEffect(()=>{
+    AOS.init({duration: 1000});
+  },[]);
   return (
     <>
       <div className="net">
       <div className="connect-3">
-          <div className="con3-1">
+          <div className="con3-1" data-aos="fade-left">
             <img src="/Images/Services/10004.png" alt="" />
           </div>
           <div className="con3-2">
@@ -36,7 +42,7 @@ const Network = () => {
           </div>
         </div>
         <div className="connect-4">
-          <div className="con4-1">
+          <div className="con4-1" data-aos="fade-left">
             <img src="/Images/Services/10005.png" alt="" />
           </div>
           <div className="con4-2">

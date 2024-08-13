@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./OurClient.css"
-import SVG from "../../components/SVG/SVG"
-import Svg2 from "../../components/Svg2/Svg2"
+import 'aos/dist/aos.css';
+
+// import 'animate.css';
+import AOS from "aos"
 const OurClient = () => {
-    const color1 = "#B01F63";
-  const color2 = "#fff";
+    useEffect(()=>{
+      AOS.init({duration: 1000});
+    },[]);
   return (
     <>
       <div className="our">
@@ -12,7 +15,7 @@ const OurClient = () => {
             <div className="our1-1">
                 <span>Our Clients</span>
             </div>
-            <div className="our1-2">
+            <div className="our1-2" data-aos="fade-left">
                 <div className="a">
                 <div className="our1-2-1"><img src="/Images/c1.png" alt="rfr" /></div>
                 <div className="our1-2-2"><img src="/Images/c2.png" alt="cdc" /></div>
@@ -20,7 +23,7 @@ const OurClient = () => {
                 <div className="our1-2-4"><img src="/Images/c4.png" alt="ju" /></div>
                 <div className="our1-2-5"><img src="/Images/c5.png" alt="wer" /></div>
                 </div>
-               <div className="b">
+               <div className="" id='b'>
                <div className="our1-2-6"><img src="/Images/c6.png" alt="vfe" /></div>
                 <div className="our1-2-7"><img src="/Images/c7.png" alt="rgewe" /></div>
                 <div className="our1-2-8"><img src="/Images/c8.png" alt="werw" /></div>

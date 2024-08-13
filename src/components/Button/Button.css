@@ -11,13 +11,17 @@
   position: relative;
   cursor: pointer;
   z-index: 8;
-  transition: all .6s ease-in-out;
+  transition: all .9s ease-in;
 }
 
 #btn:hover {
-  transition: all .6s ease-in-out;
+  transition: all .9s ease-in;
   background: linear-gradient(to left, rgba(176, 31, 98, 1) 0%, rgba(85, 101, 181, 1) 100%);
   justify-content: flex-start; /* Move text to start */
+}
+#btn:hover::after{
+  transition: all 1.5s ease-in-out;
+  justify-content: center;
 }
 
 #btn::after {
@@ -32,9 +36,12 @@
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0;
-  transition: opacity .3s ease-in-out;
+  transition: all .6s ease-in;
 }
 
 #btn:hover::after {
   opacity: 1;
+  transition:all .9s ease-in;
 }
+
+
