@@ -8,7 +8,6 @@
   display: grid;
   width: 100vw;
   place-items: center;
-  height: 400px;
 }
 .our .our1 {
   width: 60vw;
@@ -23,7 +22,7 @@
   font-weight: 900;
   color: #761442;
 }
-.our .our1 .our1-1 .our span {
+.our .our1 .our1-1 span {
   font-size: 40px;
   font-family: "Mukta", sans-serif;
   font-weight: 900;
@@ -32,7 +31,6 @@
 .our .our1 .our1-2 {
   width: 60vw;
   display: grid;
-  gap: 2rem;
 }
 .our .our1 .our1-2 .a {
   display: grid;
@@ -44,7 +42,6 @@
 .our .our1 .our1-2 .a .our1-2-1, .our .our1 .our1-2 .a .our1-2-2, .our .our1 .our1-2 .a .our1-2-3,
 .our .our1 .our1-2 .a .our1-2-4, .our .our1 .our1-2 .a .our1-2-5 {
   width: 80%;
-  height: 100px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -63,7 +60,6 @@
 .our .our1 .our1-2 #b .our1-2-7, .our .our1 .our1-2 #b .our1-2-8, .our .our1 .our1-2 #b .our1-2-9,
 .our .our1 .our1-2 #b .our1-2-10, .our .our1 .our1-2 #b .our1-2-11 {
   width: 80%;
-  height: 100px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -74,4 +70,9 @@
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  .our .our1 .our1-1 span {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=OurClient.css.map */

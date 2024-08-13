@@ -7,10 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 .footer{
     width:100vw;
-    height:250px;
+    // height:250px;
     // background: #172641;
     .foo-1{
-        height: 210px;
+        // height: 210px;
         background: #172641;
         width: 100vw;
         display: grid;
@@ -18,7 +18,7 @@
         place-items: center;
         .foo1{
             width:250px;
-            height:120px;
+            // height:120px;
             // background: #ff0000;
             margin-bottom: 3rem;
             // display: grid;
@@ -102,7 +102,7 @@
     }
     .foo-2{
         background: #111C33;
-        height:40px;
+        // height:40px;
         color:#fff;
         width: 100vw;
         display: grid;
@@ -113,6 +113,36 @@
             font-weight: 200;
         }
 
-        
+      
     }
+    @media screen and (min-width: 300px) and (max-width: 599px) {
+        .foo-1{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            .foo2{
+                display: grid;
+                width:40vw;
+                place-items: center;
+                ul{
+                    display: grid;
+                    place-items: center;
+                    // margin-left: 8rem;
+                    width:70vw;
+                    .nn1{
+                        display: grid;
+                        place-items: center;
+                        width:70vw;
+                        // margin-left: 4rem;
+                    }
+                }
+              
+            }
+            .foo3{
+                display: grid;
+                place-items: center;
+            }
+        }
+         
+      }
 }

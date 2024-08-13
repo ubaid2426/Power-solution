@@ -19,7 +19,6 @@
 }
 
 .sp {
-  height: 1100px;
   width: 100vw;
   display: grid;
   background: linear-gradient(to right bottom, rgb(176, 31, 98) 30%, rgb(85, 101, 181) 100%);
@@ -27,7 +26,6 @@
 }
 .sp .sp1 {
   width: 70vw;
-  height: 700px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 10% 20% 70%;
@@ -142,4 +140,48 @@
   color: #fff;
   font-family: myfont4;
   font-weight: 100;
+}
+@media screen and (min-width: 600px) and (max-width: 1500px) {
+  .sp .sp1 .sp1-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  .sp .sp1 .sp1-2 {
+    width: 80vw;
+  }
+  .sp .sp1 .sp1-2 span {
+    font-size: 18px;
+  }
+  .sp .sp1 .sp1-3 {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .sp .sp1 .sp1-3 .sp1-3-1 #sp-h, .sp .sp1 .sp1-3 .sp1-3-2 #sp-h, .sp .sp1 .sp1-3 .sp1-3-3 #sp-h {
+    font-size: 20px;
+  }
+  .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-1-2, .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-1,
+  .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-1,
+  .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-2, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-1-2, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-1,
+  .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-1,
+  .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-2, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-1-2, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-1,
+  .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-1,
+  .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-2 {
+    width: 200px;
+    margin-top: 1rem;
+  }
+  .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-1-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-2-2-1 #sp-l1,
+  .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-1 #sp-l1,
+  .sp .sp1 .sp1-3 .sp1-3-1 .sp1-3-3-2-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-1-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-2-2-1 #sp-l1,
+  .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-1 #sp-l1,
+  .sp .sp1 .sp1-3 .sp1-3-2 .sp1-3-3-2-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-1-2 #sp-l1, .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-2-2-1 #sp-l1,
+  .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-1 #sp-l1,
+  .sp .sp1 .sp1-3 .sp1-3-3 .sp1-3-3-2-2 #sp-l1 {
+    width: 200px;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=SPS.css.map */

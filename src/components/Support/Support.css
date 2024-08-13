@@ -42,12 +42,11 @@
 .supp .supnl .supp1 .supp1-1 {
   display: grid;
   place-items: center;
-  font-size: 60px;
   font-family: "Mukta", sans-serif;
   font-weight: 900;
   color: #b01f63;
 }
-.supp .supnl .supp1 .supp1-1 .supp1-1 span {
+.supp .supnl .supp1 .supp1-1 span {
   font-size: 40px;
   font-family: "Mukta", sans-serif;
   font-weight: 900;
@@ -56,4 +55,20 @@
 .supp .supnl .supp1 .supp1-2 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  .supp .supnl .supp1 {
+    width: 90vw;
+  }
+  .supp .supnl .supp1 .supp1-1 span {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1500px) {
+  .supp .supnl .supp1 {
+    width: 70vw;
+  }
+  .supp .supnl .supp1 .supp1-1 span {
+    font-size: 26px;
+  }
 }/*# sourceMappingURL=Support.css.map */

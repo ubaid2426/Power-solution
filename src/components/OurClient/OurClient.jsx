@@ -15,7 +15,7 @@ const OurClient = () => {
             <div className="our1-1">
                 <span>Our Clients</span>
             </div>
-            <div className="our1-2" data-aos="fade-left">
+            <div className="our1-2" data-aos="fade-left" >
                 <div className="a">
                 <div className="our1-2-1"><img src="/Images/c1.png" alt="rfr" /></div>
                 <div className="our1-2-2"><img src="/Images/c2.png" alt="cdc" /></div>

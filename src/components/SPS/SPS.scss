@@ -1,11 +1,4 @@
-// @font-face {
-//     font-family: myfont1;
-//     src: url(../../assets/Fonts/avenir-font/AvenirLTStd-Black.otf);
-//   }
-//   @font-face {
-//     font-family: myfont2;
-//     src: url(../../assets/Fonts/avenir-font/AvenirLTStd-BlackOblique.otf);
-//   }
+
   @font-face {
     font-family: myfont3;
     src: url(../../assets/Fonts/avenir-font/AvenirLTStd-Book.otf);
@@ -18,10 +11,6 @@
     font-family: myfont5;
     src: url(../../assets/Fonts/avenir-font/AvenirLTStd-Heavy.otf);
   }
-//   @font-face {
-//     font-family: myfont6;
-//     src: url(../../assets/Fonts/avenir-font/AvenirLTStd-HeavyOblique.otf);
-//   }
 
 *{
     box-sizing: border-box;
@@ -30,7 +19,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 .sp{
-    height:1100px;
+    // height:1100px;
     width:100vw;
     display: grid;
     background: linear-gradient(to right bottom, rgba(176, 31, 98, 1) 30%, rgba(85, 101, 181, 1) 100%);
@@ -38,9 +27,7 @@
     place-items: center;
     .sp1{
         width:70vw;
-        // place-items: center;
-        // background: #00ff;
-        height:700px;
+        // height:700px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 10% 20% 70%;
@@ -49,7 +36,6 @@
           }
         .sp1-1{
       display: grid;
-    //   background: #fff;
       place-items: start;
       font-size: 50px;
       font-family: "Mukta", sans-serif;
@@ -82,10 +68,8 @@
         place-items: start;
         grid-template-columns: 1fr 1fr 1fr;
         margin-top: 4rem;
-        // background: #000;
         .sp1-3-1, .sp1-3-2, .sp1-3-3{
             color: #fff;
-            // margin-bottom: 1.5rem;
             #sp-h{
                 font-size: 30px;
                 font-family: "Mukta", sans-serif; 
@@ -154,4 +138,45 @@
     }
 
     }
+    @media screen and (min-width: 600px) and (max-width: 1500px){
+    .sp1{
+      .sp1-3{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+      }
+    }
+    }
+    @media screen and (min-width: 300px) and (max-width: 599px){
+      .sp1{
+        .sp1-2{
+          width:80vw;
+          span{
+            font-size: 18px;
+          }
+        }
+        .sp1-3{
+          display: grid;
+          margin-top: 1rem;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr 1fr ;
+          .sp1-3-1, .sp1-3-2, .sp1-3-3{
+            #sp-h{
+              font-size: 20px;
+            }
+            .sp1-3-1-2, .sp1-3-2-2-1, 
+             .sp1-3-3-2-1,
+             .sp1-3-3-2-2{
+              width: 200px;
+              margin-top: 1rem;
+              #sp-l1{
+                width: 200px;
+                font-size: 14px;
+                 }
+             }
+           
+          }
+        }
+      }
+      }
 }
