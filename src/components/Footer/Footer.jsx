@@ -7,6 +7,7 @@ import "./Footer.css";
 import Button from '../Button/Button';
 // import { Linkedin } from '@dcp-ui/icons.linkedin'
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -17,10 +18,16 @@ const Footer = () => {
             </div>
             <div className="foo2">
               <ul>
-                <li><a href="/">SPS</a></li>
+                {/* <li><a href="/">SPS</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/service">Services</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/contact">Contact</a></li> */}
+                   <nav className="nnn1">
+            <Link className="lii1" to="/">Home</Link>
+            <Link className="lii1" to="/about">About</Link>
+            <Link className="lii1" to="/contact">Contact</Link>
+            <Link className="lii1" to="/service">Services</Link>
+          </nav>
               </ul>
             </div>
             <div className="foo3">

@@ -35,14 +35,24 @@
   place-items: start;
   margin-bottom: 3rem;
 }
+.footer .foo-1 .foo2 ul .nnn1, .footer .foo-1 .foo2 ul .lii1 {
+  color: #4371C3;
+  margin-right: 5rem;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Mukta", sans-serif;
+  display: grid;
+  margin-top: 1rem;
+  place-items: center;
+}
 .footer .foo-1 .foo2 ul li {
   list-style: none;
   margin-top: 1rem;
 }
-.footer .foo-1 .foo2 ul li a {
+.footer .foo-1 .foo2 ul li .lii1 {
   color: #fff;
 }
-.footer .foo-1 .foo2 ul li a:hover {
+.footer .foo-1 .foo2 ul li .lii1:hover {
   color: #4371C3;
 }
 .footer .foo-1 .foo3 {

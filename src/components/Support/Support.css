@@ -8,7 +8,6 @@
 .supp {
   display: grid;
   place-items: center;
-  height: 618px;
   grid-template-columns: 1fr;
   background-repeat: no-repeat;
   background-size: cover;

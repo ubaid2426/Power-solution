@@ -1,0 +1,189 @@
+.contact-main {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  grid-template-rows: 15% 70% 15%;
+  place-items: center;
+}
+.contact-main .form1 {
+  width: 60vw;
+}
+.contact-main .form1 span {
+  font-size: 40px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 900;
+  color: #b01f63;
+}
+.contact-main .form2 {
+  width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-main .form2 .g1 {
+  display: grid;
+}
+.contact-main .form2 .g1 .first,
+.contact-main .form2 .g1 .last,
+.contact-main .form2 .g1 .email-id,
+.contact-main .form2 .g1 .subject-id,
+.contact-main .form2 .g1 .meaasge-id {
+  width: 100%;
+  display: grid;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  /* Apply basic styles to inputs with specific IDs */
+  /* Apply styles when elements are in a specific state */
+}
+.contact-main .form2 .g1 .first .sty,
+.contact-main .form2 .g1 .last .sty,
+.contact-main .form2 .g1 .email-id .sty,
+.contact-main .form2 .g1 .subject-id .sty,
+.contact-main .form2 .g1 .meaasge-id .sty {
+  font-weight: 200;
+  font-size: 18px;
+  color: #555555;
+}
+.contact-main .form2 .g1 .first #firstName,
+.contact-main .form2 .g1 .first #lastName,
+.contact-main .form2 .g1 .first #email,
+.contact-main .form2 .g1 .first #subject,
+.contact-main .form2 .g1 .last #firstName,
+.contact-main .form2 .g1 .last #lastName,
+.contact-main .form2 .g1 .last #email,
+.contact-main .form2 .g1 .last #subject,
+.contact-main .form2 .g1 .email-id #firstName,
+.contact-main .form2 .g1 .email-id #lastName,
+.contact-main .form2 .g1 .email-id #email,
+.contact-main .form2 .g1 .email-id #subject,
+.contact-main .form2 .g1 .subject-id #firstName,
+.contact-main .form2 .g1 .subject-id #lastName,
+.contact-main .form2 .g1 .subject-id #email,
+.contact-main .form2 .g1 .subject-id #subject,
+.contact-main .form2 .g1 .meaasge-id #firstName,
+.contact-main .form2 .g1 .meaasge-id #lastName,
+.contact-main .form2 .g1 .meaasge-id #email,
+.contact-main .form2 .g1 .meaasge-id #subject {
+  border-radius: 5px;
+  background: #ebe7e4;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: 3px solid #ebe7e4;
+  border-right: none;
+  padding: 10px;
+  border-width: 2px;
+  font-size: 20px;
+  transition: all 0.6s ease;
+}
+.contact-main .form2 .g1 .first #firstName:hover,
+.contact-main .form2 .g1 .first #lastName:hover,
+.contact-main .form2 .g1 .first #email:hover,
+.contact-main .form2 .g1 .first #subject:hover,
+.contact-main .form2 .g1 .last #firstName:hover,
+.contact-main .form2 .g1 .last #lastName:hover,
+.contact-main .form2 .g1 .last #email:hover,
+.contact-main .form2 .g1 .last #subject:hover,
+.contact-main .form2 .g1 .email-id #firstName:hover,
+.contact-main .form2 .g1 .email-id #lastName:hover,
+.contact-main .form2 .g1 .email-id #email:hover,
+.contact-main .form2 .g1 .email-id #subject:hover,
+.contact-main .form2 .g1 .subject-id #firstName:hover,
+.contact-main .form2 .g1 .subject-id #lastName:hover,
+.contact-main .form2 .g1 .subject-id #email:hover,
+.contact-main .form2 .g1 .subject-id #subject:hover,
+.contact-main .form2 .g1 .meaasge-id #firstName:hover,
+.contact-main .form2 .g1 .meaasge-id #lastName:hover,
+.contact-main .form2 .g1 .meaasge-id #email:hover,
+.contact-main .form2 .g1 .meaasge-id #subject:hover {
+  border-bottom: 3px solid pink;
+  border-radius: 5px;
+  background: #ebe7e4;
+  outline-style: none;
+  font-size: 20px;
+}
+.contact-main .form2 .g1 .first #firstName:focus,
+.contact-main .form2 .g1 .first #lastName:focus,
+.contact-main .form2 .g1 .first #email:focus,
+.contact-main .form2 .g1 .first #subject:focus,
+.contact-main .form2 .g1 .last #firstName:focus,
+.contact-main .form2 .g1 .last #lastName:focus,
+.contact-main .form2 .g1 .last #email:focus,
+.contact-main .form2 .g1 .last #subject:focus,
+.contact-main .form2 .g1 .email-id #firstName:focus,
+.contact-main .form2 .g1 .email-id #lastName:focus,
+.contact-main .form2 .g1 .email-id #email:focus,
+.contact-main .form2 .g1 .email-id #subject:focus,
+.contact-main .form2 .g1 .subject-id #firstName:focus,
+.contact-main .form2 .g1 .subject-id #lastName:focus,
+.contact-main .form2 .g1 .subject-id #email:focus,
+.contact-main .form2 .g1 .subject-id #subject:focus,
+.contact-main .form2 .g1 .meaasge-id #firstName:focus,
+.contact-main .form2 .g1 .meaasge-id #lastName:focus,
+.contact-main .form2 .g1 .meaasge-id #email:focus,
+.contact-main .form2 .g1 .meaasge-id #subject:focus {
+  border-bottom: 3px solid #761442;
+  background: #fff;
+}
+.contact-main .form2 .g2 {
+  display: grid;
+}
+.contact-main .form2 .g2 .message-id {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 8% 92%;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+}
+.contact-main .form2 .g2 .message-id .sty {
+  font-weight: 200;
+  font-size: 18px;
+  color: #555555;
+}
+.contact-main .form2 .g2 .message-id #message {
+  border-radius: 5px;
+  background: #ebe7e4;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: 3px solid #ebe7e4;
+  border-right: none;
+  padding: 10px;
+  border-width: 2px;
+  font-size: 20px;
+}
+.contact-main .form2 .g2 .message-id #message:hover {
+  border-bottom: 3px solid pink;
+}
+.contact-main .form2 .g2 .message-id #message:focus {
+  border-bottom: 3px solid #761442;
+  background: #fff;
+}
+.contact-main .form3 {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+  width: 60vw;
+  margin-top: 2rem;
+}
+.contact-main .form3 button {
+  height: 45px;
+  width: 150px;
+  background: #b01f63;
+  border-radius: 50px;
+  border-color: #b01f63;
+  outline-style: none;
+  transition: all 0.5s ease;
+  color: #fff;
+  font-size: 18px;
+}
+.contact-main .form3 button:hover {
+  background: #fff;
+  border-color: #b01f63;
+  transition: all 0.5s ease;
+  color: #b01f63;
+}/*# sourceMappingURL=Contactform.css.map */

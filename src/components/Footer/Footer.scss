@@ -37,16 +37,29 @@
             place-items: start;
             margin-bottom: 3rem;
             ul{
+                .nnn1, .lii1{
+                    color:#4371C3;
+                    margin-right: 5rem;
+                    font-size: 20px;
+                    font-weight: 700;
+                    font-family: "Mukta", sans-serif;
+                    display: grid;
+                    // padding:1rem;
+                margin-top: 1rem;
+                    // justify-content: center;
+                    // align-items: center;
+                    place-items: center; 
+                  }
                 // padding:1rem;
                 // margin-top: 1rem;
                 li{
                 list-style: none;
                 margin-top: 1rem;
-                a{
+                .lii1{
                     color:#fff;
                     // margin-top: 1rem;
                 }
-                a:hover{
+                .lii1:hover{
                     color:#4371C3;
                 }
 

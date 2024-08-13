@@ -1,0 +1,158 @@
+.contact-main {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  grid-template-rows: 15% 70% 15%;
+  place-items: center;
+  .form1 {
+    width: 60vw;
+    span {
+      font-size: 40px;
+      font-family: "Mukta", sans-serif;
+      font-weight: 900;
+      color: #b01f63;
+    }
+  }
+  .form2 {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .g1 {
+      display: grid;
+    //   grid-template-columns: 1fr;
+    //   grid-template-rows: 1fr 1fr 1fr 1fr;
+      .first,
+      .last,
+      .email-id,
+      .subject-id,
+      .meaasge-id {
+        width: 100%;
+        // height: 100px;
+        // height: 100%;
+        display: grid;
+        // background: #f5f5f5;
+
+        // border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        font-family: "Ubuntu", sans-serif;
+        .sty {
+          font-weight: 200;
+          font-size: 18px;
+          // font-weight: 400;
+          color: #555555;
+        }
+        /* Apply basic styles to inputs with specific IDs */
+        #firstName,
+        #lastName,
+        #email,
+        #subject {
+            border-radius: 5px;
+            background: #ebe7e4;
+            // border-bottom-color:#b01f63;
+            outline-style: none;
+            border-top: none;
+            border-left: none;
+            border-bottom: 3px solid #ebe7e4;
+            border-right: none;
+            padding: 10px;
+            border-width: 2px;
+            font-size: 20px;
+          transition: all 0.6s ease;
+        }
+
+        /* Apply styles when elements are in a specific state */
+        #firstName:hover,
+        #lastName:hover,
+        #email:hover,
+        #subject:hover {
+          border-bottom: 3px solid pink;
+          border-radius: 5px;
+          background: #ebe7e4;
+          outline-style: none;
+          // padding: 10px;
+          font-size: 20px;
+        }
+        #firstName:focus,
+        #lastName:focus,
+        #email:focus,
+        #subject:focus {
+          border-bottom: 3px solid#761442;
+          background: #fff;
+        }
+      }
+    }
+    .g2 {
+      display: grid;
+      // grid-template-columns: 1fr;
+      // grid-template-rows: 1fr 1fr 1fr 1fr;
+      .message-id {
+        width: 100%;
+        // height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 8% 92%;
+        // background: #f5f5f5;
+
+        // border-radius: 5px;
+        padding: 10px;
+        font-size: 25px;
+        font-family: "Ubuntu", sans-serif;
+        .sty {
+          font-weight: 200;
+          font-size: 18px;
+          // height: 50px;
+          // font-weight: 400;
+          color: #555555;
+        }
+        #message {
+          // height:calc(100% - 50px);
+          border-radius: 5px;
+          background: #ebe7e4;
+          // border-bottom-color:#b01f63;
+          outline-style: none;
+          border-top: none;
+          border-left: none;
+          border-bottom: 3px solid #ebe7e4;
+          border-right: none;
+          padding: 10px;
+          border-width: 2px;
+          font-size: 20px;
+        }
+        #message:hover {
+          border-bottom: 3px solid pink;
+        }
+        #message:focus {
+          border-bottom: 3px solid#761442;
+          background: #fff;
+        }
+      }
+    }
+  }
+  .form3 {
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    width: 60vw;
+    margin-top: 2rem;
+    button {
+      height: 45px;
+      width: 150px;
+      background: #b01f63;
+      border-radius: 50px;
+      border-color: #b01f63;
+      outline-style: none;
+      transition: all 0.5s ease;
+      color: #fff;
+      font-size: 18px;
+    }
+    button:hover {
+      background: #fff;
+      border-color: #b01f63;
+      transition: all 0.5s ease;
+      color: #b01f63;
+    }
+  }
+}

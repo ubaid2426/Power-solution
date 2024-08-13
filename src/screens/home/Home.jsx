@@ -56,10 +56,10 @@ const Home = () => {
           <OurClient />
         </div>
         <div className="home-m-5">
-          <Support />
+          <Support color2={color2}/>
         </div>
         <div className="home-m-6">
-          <Footer />
+          <Footer  />
         </div>
       </div>
     </>

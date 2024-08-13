@@ -52,17 +52,29 @@
   place-items: center;
 
 }
-.nav2 ul li{
+.nav2 ul nav Link{
   list-style:none ;
 }
 .nav2 ul li a{
-  color:#4371C3;
+  background: transparent;
+  color: #fff;
   margin-right: 5rem;
   font-size: 20px;
   font-weight: 700;
   font-family: "Mukta", sans-serif;
   display: grid;
   place-items: center;
+}
+.nnn, .lii{
+  color:#4371C3;
+  margin-right: 5rem;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Mukta", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* place-items: center; */
 }
 #icon{
   /* background: #949494; */

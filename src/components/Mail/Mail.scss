@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.mail{
+    width:100vw;
+    display: grid;
+    place-items: center;
+    .mail1{
+        width:50vw;
+        margin-top: 5rem;
+        display: grid;
+        .mail1-1{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+          .mail1-1-1, .mail1-1-2, .mail1-1-3{
+            display: grid;
+            grid-template-columns: 1fr 6fr;
+            .mail1-1-1-1, .mail1-1-2-1, .mail1-1-3-1{
+                font-size: 32px;
+                color: #b01f63;
+                display: grid;
+                margin-top: .5rem;
+                justify-content: start;
+                align-items: start;
+                font-weight: 500;
+            }
+            .mail1-1-1-2, .mail1-1-2-2, .mail1-1-3-2{
+                display: grid;
+                justify-content: start;
+                align-items: start;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+                .mail1-1-1-2-1, .mail1-1-2-2-1, .mail1-1-3-2-1{
+                    display: grid;
+                    justify-content: start;
+                    align-items: start;
+                    height: min-content;
+                    // margin-top: 5rem;
+                    span{
+                          font-size: 32px;
+                          font-family: "Ubuntu", sans-serif;
+                          font-weight: 900;
+                          color: #761442;
+                        }
+                }
+                .mail1-1-1-2-2, .mail1-1-2-2-2, .mail1-1-3-2-2{
+                    font-weight: 200;
+                    font-size: 18px;
+                    // font-weight: 400;
+                    color:#555555;
+                    // margin-bottom: 1rem;
+                    // margin-top: 1rem;
+                    a{
+                        color:#555555;
+                        text-decoration: underline; 
+                    }
+                }
+                
+
+            }
+          }
+        }
+    }
+}

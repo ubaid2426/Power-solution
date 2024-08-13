@@ -1,0 +1,10 @@
+.map{
+    width:100vw;
+    display: grid;
+place-items: center;
+}
+.map1{
+    width:50vw;
+    outline: none;
+    border: none;
+}

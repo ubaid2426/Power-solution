@@ -1,0 +1,55 @@
+.Acre{
+    width: 100vw;
+    display: grid;
+    place-items:center ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45% 55%;
+    background: #EBE7E4;
+    .Ac1{
+        width:100vw;
+    }
+    .Ac2{
+        width:55vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30% 70%;
+        .Ac2-1{
+            // .Ac2-2-1{
+                display: grid;
+                place-items: start;
+                 span{
+                  font-size: 40px;
+                  font-family: "Ubuntu", sans-serif;
+                  font-weight: 900;
+                  color: #761442;
+                }
+            // }
+        }
+        .Ac2-2{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 20% 80%;
+            .Ac2-2-1{
+                font-weight: 500;
+                font-size: 20px;
+                // font-weight: 400;
+                color:#555555;
+                margin-bottom: 1rem;
+                // margin-top: 1rem;
+                width:450px;
+            }
+            .Ac2-2-2{
+                font-size: 20px;
+                // margin-bottom: 1rem;
+                // margin-top: 1rem;
+                width:450px;
+                font-weight: 250;
+                ul{
+                    margin: 0px 0rem 0px 2.5rem;
+                    padding: 0px;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}

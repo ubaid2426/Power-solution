@@ -1,0 +1,49 @@
+.Acre {
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 45% 55%;
+  background: #EBE7E4;
+}
+.Acre .Ac1 {
+  width: 100vw;
+}
+.Acre .Ac2 {
+  width: 55vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30% 70%;
+}
+.Acre .Ac2 .Ac2-1 {
+  display: grid;
+  place-items: start;
+}
+.Acre .Ac2 .Ac2-1 span {
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  color: #761442;
+}
+.Acre .Ac2 .Ac2-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 80%;
+}
+.Acre .Ac2 .Ac2-2 .Ac2-2-1 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #555555;
+  margin-bottom: 1rem;
+  width: 450px;
+}
+.Acre .Ac2 .Ac2-2 .Ac2-2-2 {
+  font-size: 20px;
+  width: 450px;
+  font-weight: 250;
+}
+.Acre .Ac2 .Ac2-2 .Ac2-2-2 ul {
+  margin: 0px 0rem 0px 2.5rem;
+  padding: 0px;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=Acre.css.map */

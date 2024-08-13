@@ -2,7 +2,7 @@ import React from "react";
 import "./Support.css";
 import Svg2 from "../Svg2/Svg2";
 import Button from "../Button/Button";
-const Support = () => {
+const Support = (props) => {
   const color1 = "#B01F63";
   const color2 = "#fff";
   return (
@@ -11,7 +11,7 @@ const Support = () => {
         <div className="supnl">
           {/* <img src="/Images/support.png" alt="" /> */}
           <div className="support">
-            <Svg2 main={color2} />
+            <Svg2 main={props.color2} />
           </div>
           <div className="supp1">
             <div className="supp1-1">

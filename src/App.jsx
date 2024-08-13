@@ -5,6 +5,7 @@ import Contact from "./screens/contact/Contact";
 import Services from "./screens/services/Service";
 import About from "./screens/about/About";
 import Home from "./screens/home/Home";
+// import ToggleParagraph from "./components/Toggle/Toggle";
 // import Home from "./screens/home/Home";
 function App() {
   return (
