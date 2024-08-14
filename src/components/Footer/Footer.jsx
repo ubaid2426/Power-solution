@@ -9,6 +9,7 @@ import Button from '../Button/Button';
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Footer = () => {
+
   return (
     <>
         <div className="footer">
