@@ -3,6 +3,7 @@
   display: grid;
   place-items: center;
   width: 100vw;
+  overflow: hidden;
   height: -moz-fit-content;
   height: fit-content;
 }
@@ -49,4 +50,33 @@
   margin: 0px 0rem 0px 2rem;
   padding: 0px;
   margin-bottom: 1rem;
+}
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  .toggle .tog {
+    width: 100vw;
+  }
+  .toggle .tog #tit {
+    margin: 0px;
+  }
+  .toggle .tog #tit #icon12 {
+    font-size: 20px;
+  }
+  .toggle .tog #tit #tit1 {
+    font-size: 10px;
+  }
+  .toggle .tog .head .head1 {
+    margin: 0rem 0rem 0rem -3rem;
+  }
+  .toggle .tog .head .head1 .head1-1 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .toggle .tog .head .head1 .head1-2 .head1-3-1, .toggle .tog .head .head1 .head1-3 .head1-3-1 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .toggle .tog .head .head1 .head1-2 .head1-2-2 ul, .toggle .tog .head .head1 .head1-2 .head1-3-2 ul, .toggle .tog .head .head1 .head1-3 .head1-2-2 ul, .toggle .tog .head .head1 .head1-3 .head1-3-2 ul {
+    font-size: 10px;
+    width: 200px;
+  }
 }/*# sourceMappingURL=Toggle.css.map */

@@ -36,13 +36,11 @@ const Service = () => {
         </div>
         <div className="ser3">
           <Connection/>
-          {/* <Tog/> */}
-          {/* <Network/> */}
-          {/* <Director /> */}
+          <Tog/>
+          <Network/>
         </div>
         <div className="ser4">
-          {/* <Acre/> */}
-         {/* <Mission /> */}
+          <Acre/>
         </div>
         <div className="ser5">
           <Support color2={color2} />

@@ -10,7 +10,7 @@ const Network = () => {
   return (
     <>
       <div className="net">
-      <div className="net-3">
+      <div className="net3">
           <div className="net3-1" data-aos="fade-left">
             <img src="/Images/Services/10004.png" alt="" />
           </div>
@@ -41,7 +41,7 @@ const Network = () => {
             </div>
           </div>
         </div>
-        <div className="net-4">
+        <div className="net4">
           <div className="net4-1" data-aos="fade-left">
             <img src="/Images/Services/10005.png" alt="" />
           </div>

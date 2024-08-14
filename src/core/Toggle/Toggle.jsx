@@ -1,9 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "./Toggle.css";
 import { IoIosArrowDropright } from "react-icons/io";
 import { IoChevronDownCircleOutline } from "react-icons/io5";
 
-const ToggleParagraph = ({ title, as_title, eng_title, description, assessments = [], engagements = [] }) => {
+const ToggleParagraph = ({
+  title,
+  as_title,
+  eng_title,
+  description,
+  assessments = [],
+  engagements = [],
+}) => {
   // State to keep track of the visibility of the paragraph
   const [isVisible, setIsVisible] = useState(false);
 
@@ -16,25 +23,33 @@ const ToggleParagraph = ({ title, as_title, eng_title, description, assessments 
     <>
       <div className="toggle">
         <div className="tog">
-          <span id='tit' onClick={toggleVisibility} style={{ cursor: 'pointer' }}>
-            <span id='icon12'>
-              {isVisible ? <IoChevronDownCircleOutline /> : <IoIosArrowDropright />}
+          <span
+            id="tit"
+            onClick={toggleVisibility}
+            style={{ cursor: "pointer" }}
+          >
+            <span id="icon12">
+              {isVisible ? (
+                <IoChevronDownCircleOutline />
+              ) : (
+                <IoIosArrowDropright />
+              )}
             </span>
-            <span id='tit1'>{title}</span>
+            <span id="tit1">{title}</span>
           </span>
           {isVisible && (
             <div className="head">
               <div className="head1">
                 {description && (
                   <div className="head1-1">
-                    <span id='des'>{description}</span>
+                    <span id="des">{description}</span>
                   </div>
                 )}
 
                 {assessments.length > 0 && (
                   <div className="head1-2">
                     <div className="head1-2-1">
-                      <span id='as_title'>{as_title}</span>
+                      <span id="as_title">{as_title}</span>
                     </div>
                     <div className="head1-2-2">
                       <ul>

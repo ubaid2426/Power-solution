@@ -2,7 +2,7 @@
     width:100vw;
     display: grid;
     place-items: center;
-    .net-3, .net-4{
+    .net3, .net4{
         width:60vw;
         height:100%;
         display: grid;
@@ -60,7 +60,31 @@
         }
   
       }
-      @media screen and (min-width: 300px) and (max-width: 599px){
-        
+      @media screen and (min-width: 300px) and (max-width: 799px){
+        .net3, .net4{
+            .net3-2, .net4-2{
+                .net3-2-1, .net4-2-1{
+                    span{
+                        font-size: 25px;
+                    }
+                }
+                .net3-2-2, .net4-2-2{
+                    width:200px;
+                    span{
+                        font-size: 15px;
+                        width:200px;
+                    }
+                }
+                .net3-2-3, .net4-2-3{
+                    ul{
+                        li{
+                            width:200px;
+                            font-size: 12px;
+                            // margin-bottom: 2rem;
+                        }
+                    }
+                }
+            }
+        }
       }
 }

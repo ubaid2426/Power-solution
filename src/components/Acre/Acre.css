@@ -5,6 +5,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 45% 55%;
   background: #EBE7E4;
+  overflow: hidden;
 }
 .Acre .Ac1 {
   width: 100vw;
@@ -46,4 +47,19 @@
   margin: 0px 0rem 0px 2.5rem;
   padding: 0px;
   margin-bottom: 1rem;
+  color: #555555;
+}
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  .Acre .Ac2 .Ac2-1 span {
+    font-size: 20px;
+  }
+  .Acre .Ac2 .Ac2-2 .Ac2-2-1 span {
+    font-size: 16px;
+  }
+  .Acre .Ac2 .Ac2-2 .Ac2-2-2 ul {
+    width: 200px;
+  }
+  .Acre .Ac2 .Ac2-2 .Ac2-2-2 ul li {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=Acre.css.map */
