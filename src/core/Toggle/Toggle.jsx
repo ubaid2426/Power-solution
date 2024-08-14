@@ -17,7 +17,7 @@ const ToggleParagraph = ({ title, as_title, eng_title, description, assessments 
       <div className="toggle">
         <div className="tog">
           <span id='tit' onClick={toggleVisibility} style={{ cursor: 'pointer' }}>
-            <span id='icon'>
+            <span id='icon12'>
               {isVisible ? <IoChevronDownCircleOutline /> : <IoIosArrowDropright />}
             </span>
             <span id='tit1'>{title}</span>

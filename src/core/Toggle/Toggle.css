@@ -17,7 +17,7 @@
        column-gap: 1rem;
   margin: 0rem 0rem 1rem 5rem;
 }
-.toggle .tog #tit #icon {
+.toggle .tog #tit #icon12 {
   font-size: 35px;
   height: 30px;
   width: 30px;
@@ -26,6 +26,7 @@
 .toggle .tog #tit #tit1 {
   font-size: 25px;
   font-family: "Ubuntu", sans-serif;
+  color: #000;
 }
 .toggle .tog #tit #tit1:hover, .toggle .tog #tit #tit1:active {
   color: #4472C4;

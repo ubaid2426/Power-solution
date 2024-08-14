@@ -3,6 +3,10 @@
     margin: 0px;
     padding: 0px;
 }
+#some {
+  background: transparent;
+  background: #fff;
+}
 .head{
     width: 100vw;
     height:200px;
@@ -23,3 +27,4 @@
     height:200px;
     color: transparent;
  }
+

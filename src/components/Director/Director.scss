@@ -14,7 +14,7 @@
         justify-content: center;
       
         .dir1-1{
-            height:100%;
+            // height:100%;
             display: grid;
             place-items: center;
             display: flex;
@@ -109,8 +109,32 @@
             
         }
     }
-    .dir-1{
+    .dir-1, .dir-2{
         width:100vw;
         // background: #EBE7E4;
     }
+    @media screen and (min-width: 300px) and (max-width: 799px) {
+    .dir1{
+        .dir1-1{
+            span{
+                font-size: 25px;
+            }
+        }
+        .dir1-2{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+
+            .dir1-2-1, .dir1-2-2, .dir1-2-3, .dir1-2-4{
+                .dir1-2-1-3, .dir1-2-1-4, .dir1-2-1-5, .dir1-2-1-6,
+                .dir1-2-2-4, .dir1-2-2-5, .dir1-2-2-6,
+                .dir1-2-3-4, .dir1-2-3-5, .dir1-2-3-6,
+                .dir1-2-4-4, .dir1-2-3-5, .dir1-2-3-6{
+                   width:80vw;
+                }
+            }
+            
+        }
+    }
+      }
 }

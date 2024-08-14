@@ -13,14 +13,18 @@
 }
 .mission .miss .miss1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60% 40%;
+  height: -moz-min-content;
+  height: min-content;
 }
 .mission .miss .miss1 .miss1-1,
 .mission .miss .miss1 .miss1-2 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 40% 60%;
+  grid-template-rows: 1fr 1fr;
   align-items: start;
+  height: -moz-min-content;
+  height: min-content;
   justify-content: start;
 }
 .mission .miss .miss1 .miss1-1 .miss1-1-1,
@@ -227,4 +231,28 @@
 .mission .miss .miss2 .miss2-2 .miss2-2-3:hover, .mission .miss .miss2 .miss2-2 .miss2-2-4:hover {
   transform: translateY(-10%);
   transition: all 1s ease-in-out;
+}
+@media screen and (min-width: 300px) and (max-width: 799px) {
+  .mission .miss .miss1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    height: -moz-min-content;
+    height: min-content;
+  }
+  .mission .miss .miss1 .miss1-1 .miss1-1-2 #miss-l, .mission .miss .miss1 .miss1-1 .miss1-2-2 #miss-l, .mission .miss .miss1 .miss1-2 .miss1-1-2 #miss-l, .mission .miss .miss1 .miss1-2 .miss1-2-2 #miss-l {
+    width: 200px;
+  }
+  .mission .miss .miss2 {
+    margin-top: 0rem;
+  }
+  .mission .miss .miss2 .miss2-1 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  .mission .miss .miss2 .miss2-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
 }/*# sourceMappingURL=Mission.css.map */

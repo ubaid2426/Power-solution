@@ -91,7 +91,7 @@
   font-size: 14px;
   font-weight: 200;
 }
-@media screen and (min-width: 300px) and (max-width: 599px) {
+@media screen and (min-width: 300px) and (max-width: 899px) {
   .footer .foo-1 {
     display: grid;
     grid-template-columns: 1fr;

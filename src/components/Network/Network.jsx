@@ -10,21 +10,21 @@ const Network = () => {
   return (
     <>
       <div className="net">
-      <div className="connect-3">
-          <div className="con3-1" data-aos="fade-left">
+      <div className="net-3">
+          <div className="net3-1" data-aos="fade-left">
             <img src="/Images/Services/10004.png" alt="" />
           </div>
-          <div className="con3-2">
-            <div className="con3-2-1">
+          <div className="net3-2">
+            <div className="net3-2-1">
               <span>Network Services</span>
             </div>
-            <div className="con3-2-2">
+            <div className="net3-2-2">
               <span>
                 Grid advisory services to network service providers and
                 operators.
               </span>
             </div>
-            <div className="con3-2-3">
+            <div className="net3-2-3">
               <ul>
                 <li>Connection due diligence</li>
                 <li>
@@ -41,18 +41,18 @@ const Network = () => {
             </div>
           </div>
         </div>
-        <div className="connect-4">
-          <div className="con4-1" data-aos="fade-left">
+        <div className="net-4">
+          <div className="net4-1" data-aos="fade-left">
             <img src="/Images/Services/10005.png" alt="" />
           </div>
-          <div className="con4-2">
-            <div className="con4-2-1">
+          <div className="net4-2">
+            <div className="net4-2-1">
               <span>Strategic Advice</span>
             </div>
-            <div className="con4-2-2">
+            <div className="net4-2-2">
               Strategic technical advice and analysis to support:
             </div>
-            <div className="con4-2-3">
+            <div className="net4-2-3">
               <ul>
                 <li>Government policy implementation or changes</li>
                 <li>Regulators looking at changing rules</li>

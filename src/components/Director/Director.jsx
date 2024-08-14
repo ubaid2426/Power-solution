@@ -3,9 +3,14 @@ import "./Director.css";
 import Svg1 from "../svg1/Svg1";
 const Director = () => {
     const color="#fff";
+    const color1="#EBE7E4";
+    const right = true;
   return (
     <>
       <div className="dir">
+        <div className="dir-2">
+     <Svg1 main={color1} change={right}/>
+        </div>
         <div className="dir1">
           <div className="dir1-1">
             <span>Meet Our Directors</span>

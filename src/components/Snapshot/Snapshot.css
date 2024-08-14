@@ -26,22 +26,19 @@
   src: url(../../assets/Fonts/avenir-font/AvenirLTStd-HeavyOblique.otf);
 }
 .snap {
-  height: 660px;
   width: 100vw;
   background: #fff;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 70% 30%;
 }
 .snap .snap1 {
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 20% 80%;
+  grid-template-rows: 10% 90%;
   place-items: center;
 }
 .snap .snap1 .snap1-1 {
-  height: 100%;
   display: grid;
   place-items: center;
   display: flex;
@@ -58,8 +55,6 @@
 .snap .snap1 .snap1-2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 60vw;
-  height: 100%;
   -moz-column-gap: 5rem;
        column-gap: 5rem;
   align-items: start;
@@ -68,9 +63,10 @@
 .snap .snap1 .snap1-2 .snap1-2-1, .snap .snap1 .snap1-2 .snap1-2-2, .snap .snap1 .snap1-2 .snap1-2-3 {
   display: grid;
   width: 100%;
-  height: 100%;
+  align-items: start;
+  justify-content: start;
   grid-template-columns: 1fr;
-  grid-template-rows: 40% 60%;
+  grid-template-rows: 50% 50%;
 }
 .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-1-1, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-2-1, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-3-1, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-1-1, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-2-1, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-3-1, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-1-1, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-2-1, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-3-1 {
   width: 70px;
@@ -79,10 +75,15 @@
   width: 100%;
   margin: 100%;
 }
+.snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-1-2, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-2-2, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-3-2, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-1-2, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-2-2, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-3-2, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-1-2, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-2-2, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-3-2 {
+  display: grid;
+  justify-content: start;
+  align-items: start;
+}
 .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-1-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-2-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-3-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-1-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-2-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-3-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-1-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-2-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-3-2 #snap-l {
   color: #000;
   font-size: 19px;
-  width: 300px;
+  width: 280px;
   font-family: myfont3;
   font-weight: 100;
 }
@@ -94,4 +95,24 @@
 }
 .snap .snap2 {
   width: 100vw;
+}
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  .snap .snap1 .snap1-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-1-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-2-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-3-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-1-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-2-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-3-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-1-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-2-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-3-2 #snap-l {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1599px) {
+  .snap .snap1 .snap1-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-1-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-2-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-1 .snap1-2-3-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-1-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-2-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-2 .snap1-2-3-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-1-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-2-2 #snap-l, .snap .snap1 .snap1-2 .snap1-2-3 .snap1-2-3-2 #snap-l {
+    width: 320px;
+  }
 }/*# sourceMappingURL=Snapshot.css.map */

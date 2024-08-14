@@ -20,7 +20,7 @@ const About = () => {
             </div>
             <div className="abo1-1-1">
               {" "}
-              <Svg1 main={color1} />
+              <Svg1 main={color1} clr={false} />
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ const About = () => {
           <Mission />
         </div>
         <div className="abo5">
-          <Support />
+          <Support color2={color1}/>
         </div>
         <div className="abo6">
           <Footer />

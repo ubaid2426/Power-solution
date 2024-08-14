@@ -86,4 +86,9 @@
   display: block;
   width: 100vw;
   background: #fff;
+}
+@media screen and (min-width: 300px) and (max-width: 899px) {
+  .service .ser1 .ser1-1 .ser1-1-1 span {
+    font-size: 50px;
+  }
 }/*# sourceMappingURL=Service.css.map */

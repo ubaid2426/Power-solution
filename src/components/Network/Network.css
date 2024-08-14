@@ -3,7 +3,7 @@
   display: grid;
   place-items: center;
 }
-.net .connect-3, .net .connect-4 {
+.net .net-3, .net .net-4 {
   width: 60vw;
   height: 100%;
   display: grid;
@@ -11,50 +11,51 @@
   grid-template-columns: 1fr;
   grid-template-rows: 20% 80%;
 }
-.net .connect-3 .con3-1, .net .connect-3 .con4-1, .net .connect-4 .con3-1, .net .connect-4 .con4-1 {
+.net .net-3 .net3-1, .net .net-3 .net4-1, .net .net-4 .net3-1, .net .net-4 .net4-1 {
   display: grid;
   height: 100px;
   width: 100px;
 }
-.net .connect-3 .con3-1 img, .net .connect-3 .con4-1 img, .net .connect-4 .con3-1 img, .net .connect-4 .con4-1 img {
+.net .net-3 .net3-1 img, .net .net-3 .net4-1 img, .net .net-4 .net3-1 img, .net .net-4 .net4-1 img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.net .connect-3 .con3-2, .net .connect-3 .con4-2, .net .connect-4 .con3-2, .net .connect-4 .con4-2 {
+.net .net-3 .net3-2, .net .net-3 .net4-2, .net .net-4 .net3-2, .net .net-4 .net4-2 {
   display: grid;
   height: 100%;
   justify-content: start;
   align-items: start;
 }
-.net .connect-3 .con3-2 .con3-2-1, .net .connect-3 .con3-2 .con4-2-1, .net .connect-3 .con4-2 .con3-2-1, .net .connect-3 .con4-2 .con4-2-1, .net .connect-4 .con3-2 .con3-2-1, .net .connect-4 .con3-2 .con4-2-1, .net .connect-4 .con4-2 .con3-2-1, .net .connect-4 .con4-2 .con4-2-1 {
+.net .net-3 .net3-2 .net3-2-1, .net .net-3 .net3-2 .net4-2-1, .net .net-3 .net4-2 .net3-2-1, .net .net-3 .net4-2 .net4-2-1, .net .net-4 .net3-2 .net3-2-1, .net .net-4 .net3-2 .net4-2-1, .net .net-4 .net4-2 .net3-2-1, .net .net-4 .net4-2 .net4-2-1 {
   display: grid;
   place-items: start;
 }
-.net .connect-3 .con3-2 .con3-2-1 span, .net .connect-3 .con3-2 .con4-2-1 span, .net .connect-3 .con4-2 .con3-2-1 span, .net .connect-3 .con4-2 .con4-2-1 span, .net .connect-4 .con3-2 .con3-2-1 span, .net .connect-4 .con3-2 .con4-2-1 span, .net .connect-4 .con4-2 .con3-2-1 span, .net .connect-4 .con4-2 .con4-2-1 span {
+.net .net-3 .net3-2 .net3-2-1 span, .net .net-3 .net3-2 .net4-2-1 span, .net .net-3 .net4-2 .net3-2-1 span, .net .net-3 .net4-2 .net4-2-1 span, .net .net-4 .net3-2 .net3-2-1 span, .net .net-4 .net3-2 .net4-2-1 span, .net .net-4 .net4-2 .net3-2-1 span, .net .net-4 .net4-2 .net4-2-1 span {
   font-size: 40px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 900;
   color: #761442;
 }
-.net .connect-3 .con3-2 .con3-2-2, .net .connect-3 .con3-2 .con4-2-2, .net .connect-3 .con4-2 .con3-2-2, .net .connect-3 .con4-2 .con4-2-2, .net .connect-4 .con3-2 .con3-2-2, .net .connect-4 .con3-2 .con4-2-2, .net .connect-4 .con4-2 .con3-2-2, .net .connect-4 .con4-2 .con4-2-2 {
+.net .net-3 .net3-2 .net3-2-2, .net .net-3 .net3-2 .net4-2-2, .net .net-3 .net4-2 .net3-2-2, .net .net-3 .net4-2 .net4-2-2, .net .net-4 .net3-2 .net3-2-2, .net .net-4 .net3-2 .net4-2-2, .net .net-4 .net4-2 .net3-2-2, .net .net-4 .net4-2 .net4-2-2 {
   font-weight: 500;
   font-size: 20px;
   color: #555555;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-.net .connect-3 .con3-2 .con3-2-3, .net .connect-3 .con3-2 .con3-2-4, .net .connect-3 .con3-2 .con4-2-3, .net .connect-3 .con3-2 .con4-2-4, .net .connect-3 .con4-2 .con3-2-3, .net .connect-3 .con4-2 .con3-2-4, .net .connect-3 .con4-2 .con4-2-3, .net .connect-3 .con4-2 .con4-2-4, .net .connect-4 .con3-2 .con3-2-3, .net .connect-4 .con3-2 .con3-2-4, .net .connect-4 .con3-2 .con4-2-3, .net .connect-4 .con3-2 .con4-2-4, .net .connect-4 .con4-2 .con3-2-3, .net .connect-4 .con4-2 .con3-2-4, .net .connect-4 .con4-2 .con4-2-3, .net .connect-4 .con4-2 .con4-2-4 {
+.net .net-3 .net3-2 .net3-2-3, .net .net-3 .net3-2 .net3-2-4, .net .net-3 .net3-2 .net4-2-3, .net .net-3 .net3-2 .net4-2-4, .net .net-3 .net4-2 .net3-2-3, .net .net-3 .net4-2 .net3-2-4, .net .net-3 .net4-2 .net4-2-3, .net .net-3 .net4-2 .net4-2-4, .net .net-4 .net3-2 .net3-2-3, .net .net-4 .net3-2 .net3-2-4, .net .net-4 .net3-2 .net4-2-3, .net .net-4 .net3-2 .net4-2-4, .net .net-4 .net4-2 .net3-2-3, .net .net-4 .net4-2 .net3-2-4, .net .net-4 .net4-2 .net4-2-3, .net .net-4 .net4-2 .net4-2-4 {
   font-size: 20px;
   font-weight: 200;
+  color: #555;
 }
-.net .connect-3 .con3-2 .con3-2-3 ul, .net .connect-3 .con3-2 .con3-2-4 ul, .net .connect-3 .con3-2 .con4-2-3 ul, .net .connect-3 .con3-2 .con4-2-4 ul, .net .connect-3 .con4-2 .con3-2-3 ul, .net .connect-3 .con4-2 .con3-2-4 ul, .net .connect-3 .con4-2 .con4-2-3 ul, .net .connect-3 .con4-2 .con4-2-4 ul, .net .connect-4 .con3-2 .con3-2-3 ul, .net .connect-4 .con3-2 .con3-2-4 ul, .net .connect-4 .con3-2 .con4-2-3 ul, .net .connect-4 .con3-2 .con4-2-4 ul, .net .connect-4 .con4-2 .con3-2-3 ul, .net .connect-4 .con4-2 .con3-2-4 ul, .net .connect-4 .con4-2 .con4-2-3 ul, .net .connect-4 .con4-2 .con4-2-4 ul {
+.net .net-3 .net3-2 .net3-2-3 ul, .net .net-3 .net3-2 .net3-2-4 ul, .net .net-3 .net3-2 .net4-2-3 ul, .net .net-3 .net3-2 .net4-2-4 ul, .net .net-3 .net4-2 .net3-2-3 ul, .net .net-3 .net4-2 .net3-2-4 ul, .net .net-3 .net4-2 .net4-2-3 ul, .net .net-3 .net4-2 .net4-2-4 ul, .net .net-4 .net3-2 .net3-2-3 ul, .net .net-4 .net3-2 .net3-2-4 ul, .net .net-4 .net3-2 .net4-2-3 ul, .net .net-4 .net3-2 .net4-2-4 ul, .net .net-4 .net4-2 .net3-2-3 ul, .net .net-4 .net4-2 .net3-2-4 ul, .net .net-4 .net4-2 .net4-2-3 ul, .net .net-4 .net4-2 .net4-2-4 ul {
   margin: 0rem 0rem 0rem 2rem;
 }
-.net .connect-3 .con3-2 .con3-2-3 ul li, .net .connect-3 .con3-2 .con3-2-4 ul li, .net .connect-3 .con3-2 .con4-2-3 ul li, .net .connect-3 .con3-2 .con4-2-4 ul li, .net .connect-3 .con4-2 .con3-2-3 ul li, .net .connect-3 .con4-2 .con3-2-4 ul li, .net .connect-3 .con4-2 .con4-2-3 ul li, .net .connect-3 .con4-2 .con4-2-4 ul li, .net .connect-4 .con3-2 .con3-2-3 ul li, .net .connect-4 .con3-2 .con3-2-4 ul li, .net .connect-4 .con3-2 .con4-2-3 ul li, .net .connect-4 .con3-2 .con4-2-4 ul li, .net .connect-4 .con4-2 .con3-2-3 ul li, .net .connect-4 .con4-2 .con3-2-4 ul li, .net .connect-4 .con4-2 .con4-2-3 ul li, .net .connect-4 .con4-2 .con4-2-4 ul li {
+.net .net-3 .net3-2 .net3-2-3 ul li, .net .net-3 .net3-2 .net3-2-4 ul li, .net .net-3 .net3-2 .net4-2-3 ul li, .net .net-3 .net3-2 .net4-2-4 ul li, .net .net-3 .net4-2 .net3-2-3 ul li, .net .net-3 .net4-2 .net3-2-4 ul li, .net .net-3 .net4-2 .net4-2-3 ul li, .net .net-3 .net4-2 .net4-2-4 ul li, .net .net-4 .net3-2 .net3-2-3 ul li, .net .net-4 .net3-2 .net3-2-4 ul li, .net .net-4 .net3-2 .net4-2-3 ul li, .net .net-4 .net3-2 .net4-2-4 ul li, .net .net-4 .net4-2 .net3-2-3 ul li, .net .net-4 .net4-2 .net3-2-4 ul li, .net .net-4 .net4-2 .net4-2-3 ul li, .net .net-4 .net4-2 .net4-2-4 ul li {
   width: 550px;
 }
-.net .connect-3 .con3-2 .con3-2-3 ul li ul, .net .connect-3 .con3-2 .con3-2-4 ul li ul, .net .connect-3 .con3-2 .con4-2-3 ul li ul, .net .connect-3 .con3-2 .con4-2-4 ul li ul, .net .connect-3 .con4-2 .con3-2-3 ul li ul, .net .connect-3 .con4-2 .con3-2-4 ul li ul, .net .connect-3 .con4-2 .con4-2-3 ul li ul, .net .connect-3 .con4-2 .con4-2-4 ul li ul, .net .connect-4 .con3-2 .con3-2-3 ul li ul, .net .connect-4 .con3-2 .con3-2-4 ul li ul, .net .connect-4 .con3-2 .con4-2-3 ul li ul, .net .connect-4 .con3-2 .con4-2-4 ul li ul, .net .connect-4 .con4-2 .con3-2-3 ul li ul, .net .connect-4 .con4-2 .con3-2-4 ul li ul, .net .connect-4 .con4-2 .con4-2-3 ul li ul, .net .connect-4 .con4-2 .con4-2-4 ul li ul {
+.net .net-3 .net3-2 .net3-2-3 ul li ul, .net .net-3 .net3-2 .net3-2-4 ul li ul, .net .net-3 .net3-2 .net4-2-3 ul li ul, .net .net-3 .net3-2 .net4-2-4 ul li ul, .net .net-3 .net4-2 .net3-2-3 ul li ul, .net .net-3 .net4-2 .net3-2-4 ul li ul, .net .net-3 .net4-2 .net4-2-3 ul li ul, .net .net-3 .net4-2 .net4-2-4 ul li ul, .net .net-4 .net3-2 .net3-2-3 ul li ul, .net .net-4 .net3-2 .net3-2-4 ul li ul, .net .net-4 .net3-2 .net4-2-3 ul li ul, .net .net-4 .net3-2 .net4-2-4 ul li ul, .net .net-4 .net4-2 .net3-2-3 ul li ul, .net .net-4 .net4-2 .net3-2-4 ul li ul, .net .net-4 .net4-2 .net4-2-3 ul li ul, .net .net-4 .net4-2 .net4-2-4 ul li ul {
   margin: 0rem 0rem 0rem 2rem;
 }/*# sourceMappingURL=Network.css.map */

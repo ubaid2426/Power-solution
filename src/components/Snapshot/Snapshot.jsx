@@ -53,7 +53,8 @@ const Snapshot = () => {
             </div>
           </div>
         </div>
-        <div className="snap2"><Svg1 main={color}/></div>
+        {/* <div className="snap2">
+          </div> */}
       </div>
     </>
   );
