@@ -33,6 +33,7 @@
   background: #ECE7E4;
   width: 100vw;
   display: grid;
+  overflow: hidden;
   place-items: center;
 }
 .we .we1 {
@@ -140,7 +141,7 @@
     grid-template-rows: 1fr 1fr 1fr;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 599px) {
+@media screen and (min-width: 320px) and (max-width: 599px) {
   .we .we1 .we1-1 .we1-1-1 span {
     font-size: 25px;
   }

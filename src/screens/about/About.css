@@ -33,6 +33,7 @@
 }
 .about {
   display: grid;
+  overflow: hidden;
 }
 .about .abo1 {
   display: grid;

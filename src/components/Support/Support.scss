@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
 .supp {
   display: grid;
+  overflow: hidden;
   place-items: center;
   grid-template-columns: 1fr;
   background-repeat: no-repeat;
@@ -61,7 +62,7 @@
       }
     }
   }
-  @media screen and (min-width: 300px) and (max-width: 599px) {
+  @media screen and (min-width: 320px) and (max-width: 599px) {
     // .supp {
       .supnl {
         .supp1 {

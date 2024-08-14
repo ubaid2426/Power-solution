@@ -22,6 +22,7 @@
     // height:1100px;
     width:100vw;
     display: grid;
+    overflow: hidden;
     background: linear-gradient(to right bottom, rgba(176, 31, 98, 1) 30%, rgba(85, 101, 181, 1) 100%);
     // background: #ff0000;
     place-items: center;
@@ -147,7 +148,7 @@
       }
     }
     }
-    @media screen and (min-width: 300px) and (max-width: 599px){
+    @media screen and (min-width: 320px) and (max-width: 599px){
       .sp1{
         .sp1-2{
           width:80vw;

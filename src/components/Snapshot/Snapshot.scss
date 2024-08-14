@@ -28,6 +28,7 @@
 }
 .snap{
     // height:660px;
+    overflow: hidden;
     width:100vw;
     background: #fff;
     display: grid;
@@ -102,7 +103,7 @@
     .snap2{
          width:100vw;
     }
-    @media screen and (min-width: 300px) and (max-width: 599px) {
+    @media screen and (min-width: 320px) and (max-width: 599px) {
       .snap1{
    .snap1-2{
     display: grid;

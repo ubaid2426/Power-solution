@@ -26,6 +26,7 @@
   src: url(../../assets/Fonts/avenir-font/AvenirLTStd-HeavyOblique.otf);
 }
 .snap {
+  overflow: hidden;
   width: 100vw;
   background: #fff;
   display: grid;
@@ -96,7 +97,7 @@
 .snap .snap2 {
   width: 100vw;
 }
-@media screen and (min-width: 300px) and (max-width: 599px) {
+@media screen and (min-width: 320px) and (max-width: 599px) {
   .snap .snap1 .snap1-2 {
     display: grid;
     grid-template-columns: 1fr;

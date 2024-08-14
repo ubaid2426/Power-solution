@@ -2,6 +2,7 @@
 .mail {
   width: 100vw;
   display: grid;
+  overflow: hidden;
   place-items: center;
 }
 .mail .mail1 {
@@ -55,7 +56,7 @@
   color: #555555;
   text-decoration: underline;
 }
-@media screen and (min-width: 300px) and (max-width: 899px) {
+@media screen and (min-width: 320px) and (max-width: 899px) {
   .mail .mail1 .mail1-1 {
     display: grid;
     grid-template-columns: 1fr;

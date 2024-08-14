@@ -10,6 +10,7 @@
   display:grid;
   grid-template-columns: 20% 80%;
   height:100px;
+  overflow: hidden;
 }
 
 .navbar h1 {

@@ -33,6 +33,7 @@
 }
 .contact {
   display: grid;
+  overflow: hidden;
 }
 .contact .contact1 {
   display: grid;
@@ -87,7 +88,7 @@
   width: 100vw;
   background: #fff;
 }
-@media screen and (min-width: 300px) and (max-width: 899px) {
+@media screen and (min-width: 320px) and (max-width: 899px) {
   .contact .contact1 .contact1-1 .contact1-1-1 span {
     font-size: 60px;
   }

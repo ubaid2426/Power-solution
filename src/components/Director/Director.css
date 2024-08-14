@@ -5,6 +5,7 @@
   justify-content: center;
   place-items: center;
   width: 100vw;
+  overflow: hidden;
   background: #EBE7E4;
 }
 .dir .dir1 {
@@ -132,7 +133,7 @@
 .dir .dir-1, .dir .dir-2 {
   width: 100vw;
 }
-@media screen and (min-width: 300px) and (max-width: 799px) {
+@media screen and (min-width: 320px) and (max-width: 799px) {
   .dir .dir1 .dir1-1 span {
     font-size: 25px;
   }

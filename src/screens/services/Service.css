@@ -33,6 +33,7 @@
 }
 .service {
   display: grid;
+  overflow: hidden;
 }
 .service .ser1 {
   display: grid;
@@ -87,7 +88,7 @@
   width: 100vw;
   background: #fff;
 }
-@media screen and (min-width: 300px) and (max-width: 899px) {
+@media screen and (min-width: 320px) and (max-width: 899px) {
   .service .ser1 .ser1-1 .ser1-1-1 span {
     font-size: 50px;
   }

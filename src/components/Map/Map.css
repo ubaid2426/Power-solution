@@ -3,6 +3,7 @@
     display: grid;
 place-items: center;
 height: 500px;
+overflow: hidden;
 }
 .map1{
     height:100%;

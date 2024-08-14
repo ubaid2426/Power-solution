@@ -10,6 +10,7 @@
   color: #fff;
   position: relative;
   cursor: pointer;
+  overflow: hidden;
   z-index: 8;
   transition: all .9s ease-in;
 }

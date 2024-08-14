@@ -3,6 +3,7 @@
 .mail{
     width:100vw;
     display: grid;
+    overflow: hidden;
     place-items: center;
     .mail1{
         width:50vw;
@@ -60,7 +61,7 @@
           }
         }
     }
-    @media screen and (min-width: 300px) and (max-width: 899px){
+    @media screen and (min-width: 320px) and (max-width: 899px){
             .mail1{
                 .mail1-1{
                     display: grid;

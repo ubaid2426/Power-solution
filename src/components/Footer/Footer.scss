@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 .footer{
     width:100vw;
+    overflow: hidden;
     // height:250px;
     // background: #172641;
     .foo-1{
@@ -39,7 +40,7 @@
             ul{
                 .nnn1, .lii1{
                     color:#4371C3;
-                    margin-right: 5rem;
+                    margin-right: 3rem;
                     font-size: 20px;
                     font-weight: 700;
                     font-family: "Mukta", sans-serif;
@@ -115,7 +116,7 @@
 
       
     }
-    @media screen and (min-width: 300px) and (max-width: 899px) {
+    @media screen and (min-width: 320px) and (max-width: 899px) {
         .foo-1{
             display: grid;
             grid-template-columns: 1fr;

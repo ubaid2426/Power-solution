@@ -21,6 +21,7 @@
 .sp {
   width: 100vw;
   display: grid;
+  overflow: hidden;
   background: linear-gradient(to right bottom, rgb(176, 31, 98) 30%, rgb(85, 101, 181) 100%);
   place-items: center;
 }
@@ -148,7 +149,7 @@
     grid-template-rows: 1fr 1fr 1fr;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 599px) {
+@media screen and (min-width: 320px) and (max-width: 599px) {
   .sp .sp1 .sp1-2 {
     width: 80vw;
   }

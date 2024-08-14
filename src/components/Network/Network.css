@@ -2,6 +2,7 @@
   width: 100vw;
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 .net .net3, .net .net4 {
   width: 60vw;
@@ -59,7 +60,7 @@
 .net .net3 .net3-2 .net3-2-3 ul li ul, .net .net3 .net3-2 .net3-2-4 ul li ul, .net .net3 .net3-2 .net4-2-3 ul li ul, .net .net3 .net3-2 .net4-2-4 ul li ul, .net .net3 .net4-2 .net3-2-3 ul li ul, .net .net3 .net4-2 .net3-2-4 ul li ul, .net .net3 .net4-2 .net4-2-3 ul li ul, .net .net3 .net4-2 .net4-2-4 ul li ul, .net .net4 .net3-2 .net3-2-3 ul li ul, .net .net4 .net3-2 .net3-2-4 ul li ul, .net .net4 .net3-2 .net4-2-3 ul li ul, .net .net4 .net3-2 .net4-2-4 ul li ul, .net .net4 .net4-2 .net3-2-3 ul li ul, .net .net4 .net4-2 .net3-2-4 ul li ul, .net .net4 .net4-2 .net4-2-3 ul li ul, .net .net4 .net4-2 .net4-2-4 ul li ul {
   margin: 0rem 0rem 0rem 2rem;
 }
-@media screen and (min-width: 300px) and (max-width: 799px) {
+@media screen and (min-width: 320px) and (max-width: 799px) {
   .net .net3 .net3-2 .net3-2-1 span, .net .net3 .net3-2 .net4-2-1 span, .net .net3 .net4-2 .net3-2-1 span, .net .net3 .net4-2 .net4-2-1 span, .net .net4 .net3-2 .net3-2-1 span, .net .net4 .net3-2 .net4-2-1 span, .net .net4 .net4-2 .net3-2-1 span, .net .net4 .net4-2 .net4-2-1 span {
     font-size: 25px;
   }

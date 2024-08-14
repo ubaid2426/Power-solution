@@ -2,8 +2,8 @@
 .toggle {
   display: grid;
   place-items: center;
-  width: 100vw;
   overflow: hidden;
+  width: 100vw;
   height: -moz-fit-content;
   height: fit-content;
 }
@@ -51,7 +51,7 @@
   padding: 0px;
   margin-bottom: 1rem;
 }
-@media screen and (min-width: 300px) and (max-width: 599px) {
+@media screen and (min-width: 320px) and (max-width: 599px) {
   .toggle .tog {
     width: 100vw;
   }
