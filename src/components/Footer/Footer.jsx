@@ -25,8 +25,8 @@ const Footer = () => {
                    <nav className="nnn1">
             <Link className="lii1" to="/">Home</Link>
             <Link className="lii1" to="/about">About</Link>
-            <Link className="lii1" to="/contact">Contact</Link>
             <Link className="lii1" to="/service">Services</Link>
+            <Link className="lii1" to="/contact">Contact</Link>
           </nav>
               </ul>
             </div>
