@@ -186,4 +186,22 @@
   border-color: #b01f63;
   transition: all 0.5s ease;
   color: #b01f63;
+}
+@media screen and (min-width: 300px) and (max-width: 741px) {
+  .contact-main .form1 {
+    width: 90vw;
+    margin-bottom: 2rem;
+  }
+  .contact-main .form1 span {
+    font-size: 20px;
+  }
+  .contact-main .form2 {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .contact-main .form2 .g1 .first .sty, .contact-main .form2 .g1 .second .sty, .contact-main .form2 .g1 .last .sty, .contact-main .form2 .g1 .email-id .sty, .contact-main .form2 .g1 .subject-id .sty, .contact-main .form2 .g1 .message-id .sty, .contact-main .form2 .g2 .first .sty, .contact-main .form2 .g2 .second .sty, .contact-main .form2 .g2 .last .sty, .contact-main .form2 .g2 .email-id .sty, .contact-main .form2 .g2 .subject-id .sty, .contact-main .form2 .g2 .message-id .sty {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=Contactform.css.map */

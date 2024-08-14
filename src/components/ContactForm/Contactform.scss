@@ -155,4 +155,27 @@
       color: #b01f63;
     }
   }
+
+  @media screen and (min-width: 300px) and (max-width: 741px){
+    .form1{
+      width:90vw;
+      margin-bottom: 2rem;
+      span{
+        font-size: 20px;
+      }
+    }
+    .form2{
+      width:100vw;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      .g1, .g2{
+        .first, .second, .last, .email-id, .subject-id, .message-id{
+          .sty{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
 }
